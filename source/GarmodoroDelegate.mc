@@ -1,3 +1,5 @@
+// Import the necessary modules
+using Toybox.ActivityRecording;
 using Toybox.Application as App;
 using Toybox.Attention as Attention;
 using Toybox.WatchUi as Ui;
@@ -8,111 +10,152 @@ var minutes = 0;
 var pomodoroNumber = 1;
 var isPomodoroTimerStarted = false;
 var isBreakTimerStarted = false;
+var session = null; // New variable to store the recording session
 
-function ping( dutyCycle, length ) {
-	if ( Attention has :vibrate ) {
-		Attention.vibrate( [ new Attention.VibeProfile( dutyCycle, length ) ] );
-	}
+function ping(dutyCycle, length) {
+    if (Attention has :vibrate) {
+        Attention.vibrate([new Attention.VibeProfile(dutyCycle, length)]);
+    }
 }
 
-function play( tone ) {
-	if ( Attention has :playTone && ! App.getApp().getProperty( "muteSounds" ) ) {
-		Attention.playTone( tone );
-	}
+function play(tone) {
+    if (Attention has :playTone && !App.getApp().getProperty("muteSounds")) {
+        Attention.playTone(tone);
+    }
 }
 
 function idleCallback() {
-	Ui.requestUpdate();
+    Ui.requestUpdate();
 }
 
 function isLongBreak() {
-	return ( pomodoroNumber % App.getApp().getProperty( "numberOfPomodorosBeforeLongBreak" ) ) == 0;
+    return (pomodoroNumber % App.getApp().getProperty("numberOfPomodorosBeforeLongBreak")) == 0;
 }
 
 function resetMinutes() {
-	minutes = App.getApp().getProperty( "pomodoroLength" );
+    minutes = App.getApp().getProperty("pomodoroLength");
 }
 
 class GarmodoroDelegate extends Ui.BehaviorDelegate {
-	function initialize() {
-		Ui.BehaviorDelegate.initialize();
-		timer.start( method( :idleCallback ), 60 * 1000, true );
-	}
+    function initialize() {
+    System.print("GarmodoroDelegate initialize() start");
+    Ui.BehaviorDelegate.initialize();
 
-	function pomodoroCallback() {
-		minutes -= 1;
+    if (timer == null) {
+        System.print("timer is null");
+        timer = new Timer.Timer();
+    }
 
-		if ( minutes == 0 ) {
-			play( 10 ); // Attention.TONE_LAP
-			ping( 100, 1500 );
-			tickTimer.stop();
-			timer.stop();
-			isPomodoroTimerStarted = false;
-			minutes = App.getApp().getProperty( isLongBreak() ? "longBreakLength" : "shortBreakLength" );
+    timer.start(method(:idleCallback), 60 * 1000, true);
 
-			timer.start( method( :breakCallback ), 60 * 1000, true );
-			isBreakTimerStarted = true;
-		}
+    System.print("GarmodoroDelegate initialize() end");
+}
 
-		Ui.requestUpdate();
-	}
 
-	function breakCallback() {
-		minutes -= 1;
+    function pomodoroCallback() {
+        minutes -= 1;
 
-		if ( minutes == 0 ) {
-			play( 7 ); // Attention.TONE_INTERVAL_ALERT
-			ping( 100, 1500 );
-			timer.stop();
+        if (minutes == 0) {
+            play(10); // Attention.TONE_LAP
+            ping(100, 1500);
+            tickTimer.stop();
+            timer.stop();
+            isPomodoroTimerStarted = false;
+            minutes = App.getApp().getProperty(isLongBreak() ? "longBreakLength" : "shortBreakLength");
 
-			isBreakTimerStarted = false;
-			pomodoroNumber += 1;
-			resetMinutes();
-			timer.start( method( :idleCallback ), 60 * 1000, true );
-		}
+            timer.start(method(:breakCallback), 60 * 1000, true);
+            isBreakTimerStarted = true;
+            session.stop();
+            session.save();
+            session = null;
+        }
 
-		Ui.requestUpdate();
-	}
+        Ui.requestUpdate();
+    }
 
-	function shouldTick() {
-		return App.getApp().getProperty( "tickStrength" ) > 0;
-	}
+    function breakCallback() {
+        minutes -= 1;
 
-	function tickCallback() {
-		ping( App.getApp().getProperty( "tickStrength" ), App.getApp().getProperty( "tickDuration" ) );
-	}
+        if (minutes == 0) {
+            play(7); // Attention.TONE_INTERVAL_ALERT
+            ping(100, 1500);
+            timer.stop();
 
-	function onBack() {
-		Ui.popView( Ui.SLIDE_RIGHT );
-		return true;
-	}
+            isBreakTimerStarted = false;
+            pomodoroNumber += 1;
+            resetMinutes();
+            timer.start(method(:idleCallback), 60 * 1000, true);
+        }
 
-	function onNextMode() {
-		return true;
-	}
+        Ui.requestUpdate();
+    }
 
-	function onNextPage() {
-		return true;
-	}
 
-	function onSelect() {
-		if ( isBreakTimerStarted || isPomodoroTimerStarted ) {
-			Ui.pushView( new Rez.Menus.StopMenu(), new StopMenuDelegate(), Ui.SLIDE_UP );
-			return true;
-		}
+    function shouldTick() {
+        return App.getApp().getProperty("tickStrength") > 0;
+    }
 
-		play( 1 ); // Attention.TONE_START
-		ping( 75, 1500 );
-		timer.stop();
-		resetMinutes();
-		timer.start( method( :pomodoroCallback ), 60 * 1000, true );
-		if ( me.shouldTick() ) {
-			tickTimer.start( method( :tickCallback ), App.getApp().getProperty( "tickFrequency" ) * 1000, true );
-		}
-		isPomodoroTimerStarted = true;
+    function tickCallback() {
+        ping(App.getApp().getProperty("tickStrength"), App.getApp().getProperty("tickDuration"));
+    }
 
-		Ui.requestUpdate();
+    function onBack() {
+        Ui.popView(Ui.SLIDE_RIGHT);
+        return true;
+    }
 
-		return true;
-	}
+    function onNextMode() {
+        return true;
+    }
+
+    function onNextPage() {
+        return true;
+    }
+
+    function onKey(keyEvent) {
+        return onSelect();
+    }
+
+    function onSelect() {
+        if (isBreakTimerStarted || isPomodoroTimerStarted) {
+            if (session != null && session.isRecording()) {
+                session.stop();
+                session.save();
+                session = null;
+            }
+            
+            Ui.pushView(new Rez.Menus.StopMenu(), new StopMenuDelegate(), Ui.SLIDE_UP);
+            return true;
+        }
+
+        if (Toybox has :ActivityRecording) {
+            if ((session == null) || (session.isRecording() == false)) {
+                session = ActivityRecording.createSession({
+                    :name => "Pomodoro Session",
+                    :sport => Activity.SPORT_GENERIC,
+                    :subSport => Activity.SUB_SPORT_GENERIC
+                    // Add other options as needed
+                });
+                session.start();
+            } else if ((session != null) && session.isRecording()) {
+                session.stop();
+                session.save();
+                session = null;
+            }
+        }
+
+        play(1); // Attention.TONE_START
+        ping(75, 1500);
+        timer.stop();
+        resetMinutes();
+        timer.start(method(:pomodoroCallback), 60 * 1000, true);
+        if (me.shouldTick()) {
+            tickTimer.start(method(:tickCallback), App.getApp().getProperty("tickFrequency") * 1000, true);
+        }
+        isPomodoroTimerStarted = true;
+
+        Ui.requestUpdate();
+
+        return true;
+    }
 }

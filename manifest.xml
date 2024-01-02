@@ -126,7 +126,9 @@
             <iq:product id="vivoactive5"/>
             <iq:product id="vivoactive_hr"/>
         </iq:products>
-        <iq:permissions/>
+        <iq:permissions>
+            <iq:uses-permission id="Fit" />
+        </iq:permissions>
         <iq:languages>
             <iq:language>eng</iq:language>
             <iq:language>pol</iq:language>
