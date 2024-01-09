@@ -3,18 +3,15 @@ using Toybox.System as System;
 using Toybox.WatchUi as Ui;
 
 class StopMenuDelegate extends Ui.MenuInputDelegate {
-    var tickTimer = new Timer();
-    var timer = new Timer();
+    var startTime = 0;
 
     function initialize() {
         Ui.MenuInputDelegate.initialize();
-
-        // Your initialization code for tickTimer and timer
     }
 
     function onMenuItem(item) {
         if (item == :restart) {
-            play(9); // Attention.TONE_RESET
+            play(9);
             ping(50, 1500);
 
             if (tickTimer != null) {
@@ -24,6 +21,13 @@ class StopMenuDelegate extends Ui.MenuInputDelegate {
             if (timer != null) {
                 timer.stop();
             }
+
+            if (startTime > 0) {
+                var elapsedTime = System.getTimer() - startTime;
+                logElapsedTime(elapsedTime);
+            }
+
+            startTime = System.getTimer();
 
             resetMinutes();
             pomodoroNumber = 1;
@@ -36,7 +40,16 @@ class StopMenuDelegate extends Ui.MenuInputDelegate {
 
             Ui.requestUpdate();
         } else if (item == :exit) {
+            if (startTime > 0) {
+                var elapsedTime = System.getTimer() - startTime;
+                logElapsedTime(elapsedTime);
+            }
+
             System.exit();
         }
+    }
+
+    function logElapsedTime(elapsedTime) {
+        println("Elapsed Time: " + elapsedTime + " milliseconds");
     }
 }

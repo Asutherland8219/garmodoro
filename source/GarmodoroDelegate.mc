@@ -38,19 +38,29 @@ function resetMinutes() {
 
 class GarmodoroDelegate extends Ui.BehaviorDelegate {
     function initialize() {
-    System.print("GarmodoroDelegate initialize() start");
-    Ui.BehaviorDelegate.initialize();
+        System.print("GarmodoroDelegate initialize() start");
+        Ui.BehaviorDelegate.initialize();
 
-    if (timer == null) {
-        System.print("timer is null");
-        timer = new Timer.Timer();
+        // Check if timer is null and initialize only if necessary
+        if (timer == null) {
+            System.print("timer is null, initializing...");
+            timer = new Timer.Timer();
+            
+            // Check if the timer is still null after initialization
+            if (timer == null) {
+                System.print("Error: Failed to initialize timer");
+            } else {
+                System.print("timer initialized successfully");
+                
+                // Start the timer
+                timer.start(method(:idleCallback), 60 * 1000, true);
+            }
+        } else {
+            System.print("timer is already initialized");
+        }
+
+        System.print("GarmodoroDelegate initialize() end");
     }
-
-    timer.start(method(:idleCallback), 60 * 1000, true);
-
-    System.print("GarmodoroDelegate initialize() end");
-}
-
 
     function pomodoroCallback() {
         minutes -= 1;
@@ -89,7 +99,6 @@ class GarmodoroDelegate extends Ui.BehaviorDelegate {
 
         Ui.requestUpdate();
     }
-
 
     function shouldTick() {
         return App.getApp().getProperty("tickStrength") > 0;
