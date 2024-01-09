@@ -1,0 +1,74 @@
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 1; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 2; ]
+using Toybox.Timer as :Timer;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 4; ]
+class GarmodoroApp extends App.AppBase{
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 5; @position = 8; ]
+    var timer;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 6; @position = 8; ]
+    var tickTimer;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_8_26_10_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 9 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_8_26_10_4_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 12; ]
+    function onStart(state) {
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_12_28_15_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 13 8 ]
+        %tmp.3 = getm $.Toybox.Timer;
+        %tmp.4 = getv function ? %tmp.3 :Timer;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :timer %tmp.1;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 14 8 ]
+        %tmp.7 = getm $.Toybox.Timer;
+        %tmp.8 = getv function ? %tmp.7 :Timer;
+        %tmp.5 = newc %tmp.8 ();
+        putv self :tickTimer %tmp.5;
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_12_28_15_4_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 17; ]
+    function onStop(state) {
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_17_27_20_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 18 8 ]
+        %tmp.2 = getv ? :tickTimer;
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 19 8 ]
+        %tmp.5 = getv ? :timer;
+        %tmp.6 = getv function %tmp.5 :stop;
+        invoke %tmp.5 %tmp.6();
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_17_27_20_4_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 22; ]
+    function getInitialView() {
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_22_30_24_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc" 23 8 ]
+        %tmp.1 = newa 2;
+        %tmp.5 = getv ? :GarmodoroView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        %tmp.11 = getv ? :GarmodoroDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.8;
+        ret %tmp.13;
+C_Users_asuth_garmodoro_source_GarmodoroApp_mc_22_30_24_4_stop:
+    }
+}
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroApp.mc"; @line = 1; ]
+<init> {
+}

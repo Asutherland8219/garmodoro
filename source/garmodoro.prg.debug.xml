@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\asuth\garmodoro\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="1" lineNum="21" parent="globals" pc="268435457" symbol="play"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="1" lineNum="22" parent="globals" pc="268435467" symbol="play"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="1" lineNum="23" parent="globals" pc="268435515" symbol="play"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="2" lineNum="8" parent="globals/GarmodoroView" pc="268435534" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="3" lineNum="5" parent="globals/StopMenuDelegate" pc="268435553" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="4" lineNum="4" parent="globals/GarmodoroApp" pc="268435572" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="5" lineNum="15" parent="globals" pc="268435591" symbol="ping"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="5" lineNum="16" parent="globals" pc="268435601" symbol="ping"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="5" lineNum="17" parent="globals" pc="268435616" symbol="ping"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435677" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="7" lineNum="39" parent="globals/GarmodoroDelegate" pc="268435701" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="8" lineNum="27" parent="globals" pc="268435720" symbol="idleCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="8" lineNum="28" parent="globals" pc="268435730" symbol="idleCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="9" lineNum="35" parent="globals" pc="268435747" symbol="resetMinutes"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="9" lineNum="36" parent="globals" pc="268435757" symbol="resetMinutes"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="10" lineNum="31" parent="globals" pc="268435795" symbol="isLongBreak"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="10" lineNum="32" parent="globals" pc="268435805" symbol="isLongBreak"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="27" parent="globals/GarmodoroView" pc="268435850" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="28" parent="globals/GarmodoroView" pc="268435854" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="29" parent="globals/GarmodoroView" pc="268435901" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="30" parent="globals/GarmodoroView" pc="268435948" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="31" parent="globals/GarmodoroView" pc="268435995" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="33" parent="globals/GarmodoroView" pc="268436042" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="34" parent="globals/GarmodoroView" pc="268436055" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="35" parent="globals/GarmodoroView" pc="268436080" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="36" parent="globals/GarmodoroView" pc="268436096" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="37" parent="globals/GarmodoroView" pc="268436118" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="38" parent="globals/GarmodoroView" pc="268436140" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="40" parent="globals/GarmodoroView" pc="268436163" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="41" parent="globals/GarmodoroView" pc="268436176" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="42" parent="globals/GarmodoroView" pc="268436189" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="43" parent="globals/GarmodoroView" pc="268436200" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="44" parent="globals/GarmodoroView" pc="268436216" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="47" parent="globals/GarmodoroView" pc="268436235" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="48" parent="globals/GarmodoroView" pc="268436278" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="12" lineNum="49" parent="globals/GarmodoroView" pc="268436321" symbol="onLayout"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="13" lineNum="95" parent="globals/GarmodoroView" pc="268436359" symbol="getTime"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="13" lineNum="96" parent="globals/GarmodoroView" pc="268436363" symbol="getTime"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="13" lineNum="97" parent="globals/GarmodoroView" pc="268436400" symbol="getTime"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="14" lineNum="84" parent="globals/GarmodoroView" pc="268436487" symbol="drawMinutes"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="14" lineNum="85" parent="globals/GarmodoroView" pc="268436489" symbol="drawMinutes"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="15" lineNum="88" parent="globals/GarmodoroView" pc="268436550" symbol="drawCaption"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="15" lineNum="89" parent="globals/GarmodoroView" pc="268436552" symbol="drawCaption"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="16" lineNum="23" parent="globals/GarmodoroView" pc="268436599" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="16" lineNum="24" parent="globals/GarmodoroView" pc="268436601" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="55" parent="globals/GarmodoroView" pc="268436620" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="56" parent="globals/GarmodoroView" pc="268436622" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="57" parent="globals/GarmodoroView" pc="268436644" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="58" parent="globals/GarmodoroView" pc="268436656" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="59" parent="globals/GarmodoroView" pc="268436667" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="60" parent="globals/GarmodoroView" pc="268436689" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="61" parent="globals/GarmodoroView" pc="268436760" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="63" parent="globals/GarmodoroView" pc="268436774" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="64" parent="globals/GarmodoroView" pc="268436796" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="65" parent="globals/GarmodoroView" pc="268436813" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="66" parent="globals/GarmodoroView" pc="268436824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="67" parent="globals/GarmodoroView" pc="268436846" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="68" parent="globals/GarmodoroView" pc="268436860" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="69" parent="globals/GarmodoroView" pc="268436882" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="71" parent="globals/GarmodoroView" pc="268436899" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="72" parent="globals/GarmodoroView" pc="268436921" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="75" parent="globals/GarmodoroView" pc="268436967" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="76" parent="globals/GarmodoroView" pc="268436979" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="77" parent="globals/GarmodoroView" pc="268437001" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="80" parent="globals/GarmodoroView" pc="268437053" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroView.mc" id="18" lineNum="81" parent="globals/GarmodoroView" pc="268437075" symbol="onUpdate"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="12" parent="globals/StopMenuDelegate" pc="268437125" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="13" parent="globals/StopMenuDelegate" pc="268437129" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="14" parent="globals/StopMenuDelegate" pc="268437140" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="15" parent="globals/StopMenuDelegate" pc="268437157" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="17" parent="globals/StopMenuDelegate" pc="268437179" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="18" parent="globals/StopMenuDelegate" pc="268437192" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="21" parent="globals/StopMenuDelegate" pc="268437210" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="22" parent="globals/StopMenuDelegate" pc="268437223" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="25" parent="globals/StopMenuDelegate" pc="268437241" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="26" parent="globals/StopMenuDelegate" pc="268437258" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="27" parent="globals/StopMenuDelegate" pc="268437284" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="30" parent="globals/StopMenuDelegate" pc="268437298" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="32" parent="globals/StopMenuDelegate" pc="268437321" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="33" parent="globals/StopMenuDelegate" pc="268437333" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="34" parent="globals/StopMenuDelegate" pc="268437346" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="35" parent="globals/StopMenuDelegate" pc="268437356" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="37" parent="globals/StopMenuDelegate" pc="268437366" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="38" parent="globals/StopMenuDelegate" pc="268437379" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="41" parent="globals/StopMenuDelegate" pc="268437420" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="42" parent="globals/StopMenuDelegate" pc="268437437" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="43" parent="globals/StopMenuDelegate" pc="268437448" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="44" parent="globals/StopMenuDelegate" pc="268437465" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="45" parent="globals/StopMenuDelegate" pc="268437491" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="19" lineNum="48" parent="globals/StopMenuDelegate" pc="268437505" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="20" lineNum="8" parent="globals/StopMenuDelegate" pc="268437522" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="20" lineNum="9" parent="globals/StopMenuDelegate" pc="268437524" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="21" lineNum="52" parent="globals/StopMenuDelegate" pc="268437547" symbol="logElapsedTime"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\StopMenuDelegate.mc" id="21" lineNum="53" parent="globals/StopMenuDelegate" pc="268437549" symbol="logElapsedTime"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="22" lineNum="12" parent="globals/GarmodoroApp" pc="268437576" symbol="onStart"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="22" lineNum="13" parent="globals/GarmodoroApp" pc="268437578" symbol="onStart"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="22" lineNum="14" parent="globals/GarmodoroApp" pc="268437612" symbol="onStart"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="23" lineNum="22" parent="globals/GarmodoroApp" pc="268437647" symbol="getInitialView"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="23" lineNum="23" parent="globals/GarmodoroApp" pc="268437649" symbol="getInitialView"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="24" lineNum="8" parent="globals/GarmodoroApp" pc="268437724" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="24" lineNum="9" parent="globals/GarmodoroApp" pc="268437726" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="17" parent="globals/GarmodoroApp" pc="268437745" symbol="onStop"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="18" parent="globals/GarmodoroApp" pc="268437747" symbol="onStop"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="19" parent="globals/GarmodoroApp" pc="268437765" symbol="onStop"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="107" parent="globals/GarmodoroDelegate" pc="268437784" symbol="tickCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="108" parent="globals/GarmodoroDelegate" pc="268437786" symbol="tickCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="111" parent="globals/GarmodoroDelegate" pc="268437857" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="112" parent="globals/GarmodoroDelegate" pc="268437859" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="113" parent="globals/GarmodoroDelegate" pc="268437880" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="86" parent="globals/GarmodoroDelegate" pc="268437883" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="87" parent="globals/GarmodoroDelegate" pc="268437885" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="89" parent="globals/GarmodoroDelegate" pc="268437904" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="90" parent="globals/GarmodoroDelegate" pc="268437921" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="91" parent="globals/GarmodoroDelegate" pc="268437938" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="92" parent="globals/GarmodoroDelegate" pc="268437960" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="94" parent="globals/GarmodoroDelegate" pc="268437978" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="95" parent="globals/GarmodoroDelegate" pc="268437988" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="96" parent="globals/GarmodoroDelegate" pc="268438007" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="97" parent="globals/GarmodoroDelegate" pc="268438019" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="100" parent="globals/GarmodoroDelegate" pc="268438060" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="116" parent="globals/GarmodoroDelegate" pc="268438077" symbol="onNextMode"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="117" parent="globals/GarmodoroDelegate" pc="268438079" symbol="onNextMode"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="65" parent="globals/GarmodoroDelegate" pc="268438082" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="66" parent="globals/GarmodoroDelegate" pc="268438084" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="68" parent="globals/GarmodoroDelegate" pc="268438103" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="69" parent="globals/GarmodoroDelegate" pc="268438120" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="70" parent="globals/GarmodoroDelegate" pc="268438137" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="71" parent="globals/GarmodoroDelegate" pc="268438159" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="72" parent="globals/GarmodoroDelegate" pc="268438177" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="73" parent="globals/GarmodoroDelegate" pc="268438195" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="74" parent="globals/GarmodoroDelegate" pc="268438205" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="76" parent="globals/GarmodoroDelegate" pc="268438264" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="77" parent="globals/GarmodoroDelegate" pc="268438305" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="78" parent="globals/GarmodoroDelegate" pc="268438315" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="79" parent="globals/GarmodoroDelegate" pc="268438333" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="80" parent="globals/GarmodoroDelegate" pc="268438351" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="83" parent="globals/GarmodoroDelegate" pc="268438360" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="103" parent="globals/GarmodoroDelegate" pc="268438377" symbol="shouldTick"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="104" parent="globals/GarmodoroDelegate" pc="268438379" symbol="shouldTick"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="40" parent="globals/GarmodoroDelegate" pc="268438415" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="41" parent="globals/GarmodoroDelegate" pc="268438417" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="42" parent="globals/GarmodoroDelegate" pc="268438440" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="45" parent="globals/GarmodoroDelegate" pc="268438462" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="46" parent="globals/GarmodoroDelegate" pc="268438474" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="47" parent="globals/GarmodoroDelegate" pc="268438497" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="50" parent="globals/GarmodoroDelegate" pc="268438533" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="51" parent="globals/GarmodoroDelegate" pc="268438545" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="53" parent="globals/GarmodoroDelegate" pc="268438571" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="56" parent="globals/GarmodoroDelegate" pc="268438594" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="59" parent="globals/GarmodoroDelegate" pc="268438638" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="62" parent="globals/GarmodoroDelegate" pc="268438661" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="120" parent="globals/GarmodoroDelegate" pc="268438685" symbol="onNextPage"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="121" parent="globals/GarmodoroDelegate" pc="268438687" symbol="onNextPage"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="124" parent="globals/GarmodoroDelegate" pc="268438690" symbol="onKey"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="125" parent="globals/GarmodoroDelegate" pc="268438692" symbol="onKey"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="128" parent="globals/GarmodoroDelegate" pc="268438704" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="129" parent="globals/GarmodoroDelegate" pc="268438706" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="130" parent="globals/GarmodoroDelegate" pc="268438728" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="131" parent="globals/GarmodoroDelegate" pc="268438761" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="132" parent="globals/GarmodoroDelegate" pc="268438779" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="133" parent="globals/GarmodoroDelegate" pc="268438797" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="136" parent="globals/GarmodoroDelegate" pc="268438806" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="137" parent="globals/GarmodoroDelegate" pc="268438891" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="140" parent="globals/GarmodoroDelegate" pc="268438894" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="141" parent="globals/GarmodoroDelegate" pc="268438909" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="142" parent="globals/GarmodoroDelegate" pc="268438944" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="148" parent="globals/GarmodoroDelegate" pc="268439012" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="149" parent="globals/GarmodoroDelegate" pc="268439033" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="150" parent="globals/GarmodoroDelegate" pc="268439066" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="151" parent="globals/GarmodoroDelegate" pc="268439084" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="152" parent="globals/GarmodoroDelegate" pc="268439102" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="156" parent="globals/GarmodoroDelegate" pc="268439111" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="157" parent="globals/GarmodoroDelegate" pc="268439128" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="158" parent="globals/GarmodoroDelegate" pc="268439150" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="159" parent="globals/GarmodoroDelegate" pc="268439168" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="160" parent="globals/GarmodoroDelegate" pc="268439180" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="161" parent="globals/GarmodoroDelegate" pc="268439221" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="162" parent="globals/GarmodoroDelegate" pc="268439235" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="164" parent="globals/GarmodoroDelegate" pc="268439306" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="166" parent="globals/GarmodoroDelegate" pc="268439316" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="168" parent="globals/GarmodoroDelegate" pc="268439332" symbol="onSelect"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="13" parent="globals/Rez/Layouts" pc="268439335" symbol="MainLayout"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268439345" symbol="MainLayout"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="37" lineNum="19" parent="globals/Rez/Menus/StopMenu" pc="268439352" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="20" parent="globals/Rez/Menus/StopMenu" pc="268439371" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="21" parent="globals/Rez/Menus/StopMenu" pc="268439373" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="22" parent="globals/Rez/Menus/StopMenu" pc="268439391" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="23" parent="globals/Rez/Menus/StopMenu" pc="268439447" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="33" symbol="shortBreakLabel"/>
+<entry id="10" object="true" symbol="StopMenuDelegate"/>
+<entry id="25" method="true" symbol="drawMinutes"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="8388731" symbol="startTime"/>
+<entry field="true" id="19" symbol="tickTimer"/>
+<entry id="8388638" module="true" symbol="ActivityRecording"/>
+<entry id="43" method="true" symbol="MainLayout"/>
+<entry field="true" id="20" symbol="timer"/>
+<entry field="true" id="8388890" symbol="sport"/>
+<entry field="true" id="51" symbol="PomodoroLength"/>
+<entry id="38" method="true" symbol="breakCallback"/>
+<entry id="7" object="true" symbol="GarmodoroApp"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="24" method="true" symbol="drawCaption"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="41" method="true" symbol="tickCallback"/>
+<entry field="true" id="55" symbol="ShortBreakLabel"/>
+<entry field="true" id="59" symbol="TickStrength"/>
+<entry field="true" id="45" symbol="AppName"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="29" symbol="pomodoroOffset"/>
+<entry field="true" id="31" symbol="readyLabel"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="60" symbol="restart"/>
+<entry id="8389082" method="true" symbol="onNextMode"/>
+<entry field="true" id="57" symbol="TickDuration"/>
+<entry field="true" id="54" symbol="RestartMenuLabel"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="14" symbol="isPomodoroTimerStarted"/>
+<entry field="true" id="16" symbol="pomodoroNumber"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="52" symbol="PomodoroSubtitle"/>
+<entry id="37" module="true" symbol="Menus"/>
+<entry id="40" method="true" symbol="shouldTick"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8391298" method="true" symbol="play"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8388987" method="true" symbol="vibrate"/>
+<entry field="true" id="21" symbol="captionOffset"/>
+<entry id="17" method="true" symbol="resetMinutes"/>
+<entry id="9" object="true" symbol="GarmodoroView"/>
+<entry field="true" id="53" symbol="ReadyLabel"/>
+<entry id="35" method="true" symbol="logElapsedTime"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="56" symbol="ShortBreakLength"/>
+<entry field="true" id="30" symbol="pomodoroSubtitle"/>
+<entry id="8388985" method="true" symbol="playTone"/>
+<entry field="true" id="27" symbol="longBreakLabel"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="26" method="true" symbol="getTime"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="46" symbol="ExitMenuLabel"/>
+<entry id="13" method="true" symbol="isLongBreak"/>
+<entry field="true" id="12" symbol="isBreakTimerStarted"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="50" symbol="NumberOfPomodorosBeforeLongBreak"/>
+<entry id="8" object="true" symbol="GarmodoroDelegate"/>
+<entry field="true" id="42" symbol="LauncherIcon"/>
+<entry field="true" id="49" symbol="MuteSounds"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="47" symbol="LongBreakLabel"/>
+<entry field="true" id="23" symbol="centerY"/>
+<entry field="true" id="22" symbol="centerX"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="8388891" symbol="subSport"/>
+<entry field="true" id="34" symbol="timeOffset"/>
+<entry field="true" id="8388892" symbol="name"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="28" symbol="minutesOffset"/>
+<entry id="15" method="true" symbol="ping"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry field="true" id="48" symbol="LongBreakLength"/>
+<entry id="11" method="true" symbol="idleCallback"/>
+<entry id="8388717" method="true" symbol="exit"/>
+<entry field="true" id="32" symbol="readyLabelOffset"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="36" module="true" symbol="Layouts"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry field="true" id="8389343" symbol="minutes"/>
+<entry field="true" id="58" symbol="TickFrequency"/>
+<entry id="39" method="true" symbol="pomodoroCallback"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="18" symbol="session"/>
+<entry id="8389078" method="true" symbol="onNextPage"/>
+<entry id="44" object="true" symbol="StopMenu"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435533" name="tone" stackId="1" startPc="268435457"/>
+<entry arg="true" endPc="268435676" name="dutyCycle" stackId="1" startPc="268435591"/>
+<entry arg="true" endPc="268435676" name="length" stackId="2" startPc="268435591"/>
+<entry arg="true" endPc="268436358" name="dc" stackId="1" startPc="268435850"/>
+<entry endPc="268436357" name="height" stackId="2" startPc="268435854"/>
+<entry endPc="268436357" name="mediumOffset" stackId="3" startPc="268435854"/>
+<entry endPc="268436357" name="mildOffset" stackId="4" startPc="268435854"/>
+<entry endPc="268436357" name="screenShape" stackId="5" startPc="268435854"/>
+<entry arg="true" endPc="268436549" name="dc" stackId="1" startPc="268436487"/>
+<entry arg="true" endPc="268436598" name="dc" stackId="1" startPc="268436550"/>
+<entry arg="true" endPc="268437124" name="dc" stackId="1" startPc="268436620"/>
+<entry arg="true" endPc="268437521" name="item" stackId="1" startPc="268437125"/>
+<entry endPc="268437297" name="elapsedTime" stackId="2" startPc="268437258"/>
+<entry endPc="268437504" name="elapsedTime" stackId="3" startPc="268437465"/>
+<entry arg="true" endPc="268437575" name="elapsedTime" stackId="1" startPc="268437547"/>
+<entry arg="true" endPc="268437646" name="state" stackId="1" startPc="268437576"/>
+<entry arg="true" endPc="268437783" name="state" stackId="1" startPc="268437745"/>
+<entry arg="true" endPc="268438703" name="keyEvent" stackId="1" startPc="268438690"/>
+<entry arg="true" endPc="268439351" name="dc" stackId="1" startPc="268439335"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NumberOfPomodorosBeforeLongBreak"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ReadyLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TickDuration"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShortBreakLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ExitMenuLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="LongBreakLength"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="RestartMenuLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TickFrequency"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShortBreakLength"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PomodoroSubtitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TickStrength"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MuteSounds"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PomodoroLength"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="LongBreakLabel"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/GarmodoroView" offset="246" parentId="globals" symbolId="GarmodoroView" type="class"/>
+<dataEntry label="globals/StopMenuDelegate" offset="437" parentId="globals" symbolId="StopMenuDelegate" type="class"/>
+<dataEntry label="globals/GarmodoroApp" offset="508" parentId="globals" symbolId="GarmodoroApp" type="class"/>
+<dataEntry label="globals/Rez" offset="595" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/GarmodoroDelegate" offset="658" parentId="globals" symbolId="GarmodoroDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="777" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="816" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="855" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="894" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/StopMenu" offset="1045" parentId="Menus" symbolId="StopMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435533" name="play" startPc="268435457">
+<param id="tone"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435552" name="&lt;init&gt;" parent="GarmodoroView" startPc="268435534">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435571" name="&lt;init&gt;" parent="StopMenuDelegate" startPc="268435553">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435590" name="&lt;init&gt;" parent="GarmodoroApp" startPc="268435572">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435676" name="ping" startPc="268435591">
+<param id="dutyCycle"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435700" name="&lt;init&gt;" parent="Rez" startPc="268435677">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435719" name="&lt;init&gt;" parent="GarmodoroDelegate" startPc="268435701">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435746" name="idleCallback" startPc="268435720">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435794" name="resetMinutes" startPc="268435747">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435849" name="isLongBreak" startPc="268435795">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="GarmodoroView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436358" name="onLayout" parent="GarmodoroView" startPc="268435850">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436486" name="getTime" parent="GarmodoroView" startPc="268436359">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436549" name="drawMinutes" parent="GarmodoroView" startPc="268436487">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436598" name="drawCaption" parent="GarmodoroView" startPc="268436550">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436619" name="initialize" parent="GarmodoroView" startPc="268436599">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="GarmodoroView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437124" name="onUpdate" parent="GarmodoroView" startPc="268436620">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437521" name="onMenuItem" parent="StopMenuDelegate" startPc="268437125">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437546" name="initialize" parent="StopMenuDelegate" startPc="268437522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437575" name="logElapsedTime" parent="StopMenuDelegate" startPc="268437547">
+<param id="elapsedTime"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437646" name="onStart" parent="GarmodoroApp" startPc="268437576">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437723" name="getInitialView" parent="GarmodoroApp" startPc="268437647">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437744" name="initialize" parent="GarmodoroApp" startPc="268437724">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437783" name="onStop" parent="GarmodoroApp" startPc="268437745">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437856" name="tickCallback" parent="GarmodoroDelegate" startPc="268437784">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437882" name="onBack" parent="GarmodoroDelegate" startPc="268437857">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438076" name="breakCallback" parent="GarmodoroDelegate" startPc="268437883">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438081" name="onNextMode" parent="GarmodoroDelegate" startPc="268438077">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438376" name="pomodoroCallback" parent="GarmodoroDelegate" startPc="268438082">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438414" name="shouldTick" parent="GarmodoroDelegate" startPc="268438377">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438684" name="initialize" parent="GarmodoroDelegate" startPc="268438415">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438689" name="onNextPage" parent="GarmodoroDelegate" startPc="268438685">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438703" name="onKey" parent="GarmodoroDelegate" startPc="268438690">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439334" name="onSelect" parent="GarmodoroDelegate" startPc="268438704">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439351" name="MainLayout" parent="Layouts" startPc="268439335">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439370" name="&lt;init&gt;" parent="StopMenu" startPc="268439352">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439503" name="initialize" parent="StopMenu" startPc="268439371">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

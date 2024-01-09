@@ -1,0 +1,216 @@
+[ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 1; ]
+using Toybox.Attention as :Attention;
+[ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 2; ]
+using Toybox.System as :System;
+[ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 5; ]
+class StopMenuDelegate extends Ui.MenuInputDelegate{
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 6; @position = 8; ]
+    var startTime = 0;
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_8_26_10_4_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 9 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv %tmp.1 :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_8_26_10_4_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 12; ]
+    function onMenuItem(item) {
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_12_30_50_4_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 13 8 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_stmt:
+        %tmp.2 = lgetv %item;
+        %tmp.4 = const :restart;
+        %tmp.5 = eq %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_false;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_30_42_8_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 14 12 ]
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :play;
+        %tmp.8 = 9;
+        invoke %tmp.6 %tmp.7(%tmp.8);
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 15 12 ]
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :ping;
+        %tmp.11 = 50;
+        %tmp.12 = 1500;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 17 12 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_12_19_12_if_stmt:
+        %tmp.14 = getv ? :tickTimer;
+        %tmp.15 = null;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        bf %tmp.16 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_12_19_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_12_19_12_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_35_19_12_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 18 16 ]
+        %tmp.18 = getv ? :tickTimer;
+        %tmp.19 = as %tmp.18 { (!Null) };
+        %tmp.20 = getv function %tmp.19 :stop;
+        invoke %tmp.19 %tmp.20();
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_35_19_12_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_12_19_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_17_12_19_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 21 12 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_12_23_12_if_stmt:
+        %tmp.22 = getv ? :timer;
+        %tmp.23 = null;
+        %tmp.24 = ne %tmp.22 %tmp.23;
+        bf %tmp.24 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_12_23_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_12_23_12_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_31_23_12_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 22 16 ]
+        %tmp.26 = getv ? :timer;
+        %tmp.27 = as %tmp.26 { (!Null) };
+        %tmp.28 = getv function %tmp.27 :stop;
+        invoke %tmp.27 %tmp.28();
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_31_23_12_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_12_23_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_21_12_23_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 25 12 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_12_28_12_if_stmt:
+        %tmp.30 = getv ? :startTime;
+        %tmp.31 = 0;
+        %tmp.32 = gt %tmp.30 %tmp.31;
+        bf %tmp.32 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_12_28_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_12_28_12_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_31_28_12_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 26 16 ]
+        [ "C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_31_28_12_start" "C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_31_28_12_stop" ]
+        %elapsedTime.1 = local;
+        %tmp.33 = getm $.Toybox.System;
+        %tmp.34 = getv function %tmp.33 :getTimer;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.37 = getv ? :startTime;
+        %tmp.38 = sub %tmp.35 %tmp.37;
+        lputv %elapsedTime.1 %tmp.38;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 27 16 ]
+        %tmp.39 = self;
+        %tmp.40 = getv function %tmp.39 :logElapsedTime;
+        %tmp.42 = lgetv %elapsedTime.1;
+        invoke %tmp.39 %tmp.40(%tmp.42);
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_31_28_12_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_12_28_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_25_12_28_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 30 12 ]
+        %tmp.43 = getm $.Toybox.System;
+        %tmp.44 = getv function %tmp.43 :getTimer;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        putv self :startTime %tmp.45;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 32 12 ]
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :resetMinutes;
+        invoke %tmp.46 %tmp.47();
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 33 12 ]
+        %tmp.48 = 1;
+        putv self :pomodoroNumber %tmp.48;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 34 12 ]
+        %tmp.49 = false;
+        putv self :isPomodoroTimerStarted %tmp.49;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 35 12 ]
+        %tmp.50 = false;
+        putv self :isBreakTimerStarted %tmp.50;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 37 12 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_12_39_12_if_stmt:
+        %tmp.52 = getv ? :timer;
+        %tmp.53 = null;
+        %tmp.54 = ne %tmp.52 %tmp.53;
+        bf %tmp.54 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_12_39_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_12_39_12_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_31_39_12_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 38 16 ]
+        %tmp.56 = getv ? :timer;
+        %tmp.57 = as %tmp.56 { (!Null) };
+        %tmp.58 = getv function %tmp.57 :start;
+        %tmp.59 = self;
+        %tmp.60 = getv function %tmp.59 :method;
+        %tmp.62 = const :idleCallback;
+        %tmp.63 = invoke %tmp.59 %tmp.60(%tmp.62);
+        %tmp.64 = 60;
+        %tmp.65 = 1000;
+        %tmp.66 = mul %tmp.64 %tmp.65;
+        %tmp.67 = true;
+        invoke %tmp.57 %tmp.58(%tmp.63, %tmp.66, %tmp.67);
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_31_39_12_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_12_39_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_37_12_39_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 41 12 ]
+        %tmp.68 = getm $.Toybox.WatchUi;
+        %tmp.69 = getv function %tmp.68 :requestUpdate;
+        invoke %tmp.68 %tmp.69();
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_30_42_8_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_false:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 42 15 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_15_49_8_if_stmt:
+        %tmp.71 = lgetv %item;
+        %tmp.73 = const :exit;
+        %tmp.74 = eq %tmp.71 %tmp.73;
+        bf %tmp.74 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_15_49_8_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_15_49_8_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_34_49_8_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 43 12 ]
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_12_46_12_if_stmt:
+        %tmp.76 = getv ? :startTime;
+        %tmp.77 = 0;
+        %tmp.78 = gt %tmp.76 %tmp.77;
+        bf %tmp.78 @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_12_46_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_12_46_12_if_true:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_31_46_12_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 44 16 ]
+        [ "C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_31_46_12_start" "C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_31_46_12_stop" ]
+        %elapsedTime.2 = local;
+        %tmp.79 = getm $.Toybox.System;
+        %tmp.80 = getv function %tmp.79 :getTimer;
+        %tmp.81 = invoke %tmp.79 %tmp.80();
+        %tmp.83 = getv ? :startTime;
+        %tmp.84 = sub %tmp.81 %tmp.83;
+        lputv %elapsedTime.2 %tmp.84;
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 45 16 ]
+        %tmp.85 = self;
+        %tmp.86 = getv function %tmp.85 :logElapsedTime;
+        %tmp.88 = lgetv %elapsedTime.2;
+        invoke %tmp.85 %tmp.86(%tmp.88);
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_31_46_12_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_12_46_12_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_43_12_46_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 48 12 ]
+        %tmp.89 = getm $.Toybox.System;
+        %tmp.90 = getv function %tmp.89 :exit;
+        invoke %tmp.89 %tmp.90();
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_34_49_8_stop:
+        goto @C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_15_49_8_if_end;
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_42_15_49_8_if_end:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_13_8_49_8_if_end:
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_12_30_50_4_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 52; ]
+    function logElapsedTime(elapsedTime) {
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_52_41_54_4_start:
+[ "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc" 53 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Elapsed Time: ";
+        %tmp.5 = lgetv %elapsedTime;
+        %tmp.6 = add %tmp.3 %tmp.5;
+        %tmp.7 = " milliseconds";
+        %tmp.8 = add %tmp.6 %tmp.7;
+        invoke %tmp.1 %tmp.2(%tmp.8);
+C_Users_asuth_garmodoro_source_StopMenuDelegate_mc_52_41_54_4_stop:
+    }
+}
+[ @file = "C:\Users\asuth\garmodoro\source\StopMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

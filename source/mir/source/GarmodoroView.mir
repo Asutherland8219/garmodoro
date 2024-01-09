@@ -1,0 +1,496 @@
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 2; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 3; ]
+using Toybox.System as :System;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 4; ]
+using Toybox.Time;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 5; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 6; ]
+using Toybox.Lang;
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 8; ]
+class GarmodoroView extends Ui.View{
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 9; @position = 12; ]
+    protected
+    var pomodoroSubtitle;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 10; @position = 12; ]
+    protected
+    var shortBreakLabel;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 11; @position = 12; ]
+    protected
+    var longBreakLabel;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 12; @position = 12; ]
+    protected
+    var readyLabel;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 14; @position = 12; ]
+    protected
+    var centerX;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 15; @position = 12; ]
+    protected
+    var centerY;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 17; @position = 12; ]
+    protected
+    var pomodoroOffset;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 18; @position = 12; ]
+    protected
+    var captionOffset;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 19; @position = 12; ]
+    protected
+    var readyLabelOffset;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 20; @position = 12; ]
+    protected
+    var minutesOffset;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 21; @position = 12; ]
+    protected
+    var timeOffset;
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 23; ]
+    function initialize() as Void {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_23_23_25_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 24 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_23_23_25_1_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 27; ]
+    function onLayout(dc) {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 28 2 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Strings;
+        %tmp.6 = getv %tmp.5 :PomodoroSubtitle;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        putv self :pomodoroSubtitle %tmp.7;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 29 2 ]
+        %tmp.8 = getm $.Toybox.WatchUi;
+        %tmp.9 = getv function %tmp.8 :loadResource;
+        %tmp.11 = getv ? :Rez;
+        %tmp.12 = getv %tmp.11 :Strings;
+        %tmp.13 = getv %tmp.12 :ShortBreakLabel;
+        %tmp.14 = invoke %tmp.8 %tmp.9(%tmp.13);
+        putv self :shortBreakLabel %tmp.14;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 30 2 ]
+        %tmp.15 = getm $.Toybox.WatchUi;
+        %tmp.16 = getv function %tmp.15 :loadResource;
+        %tmp.18 = getv ? :Rez;
+        %tmp.19 = getv %tmp.18 :Strings;
+        %tmp.20 = getv %tmp.19 :LongBreakLabel;
+        %tmp.21 = invoke %tmp.15 %tmp.16(%tmp.20);
+        putv self :longBreakLabel %tmp.21;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 31 2 ]
+        %tmp.22 = getm $.Toybox.WatchUi;
+        %tmp.23 = getv function %tmp.22 :loadResource;
+        %tmp.25 = getv ? :Rez;
+        %tmp.26 = getv %tmp.25 :Strings;
+        %tmp.27 = getv %tmp.26 :ReadyLabel;
+        %tmp.28 = invoke %tmp.22 %tmp.23(%tmp.27);
+        putv self :readyLabel %tmp.28;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 33 2 ]
+        [ "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_start" "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_stop" ]
+        %height.1 = local;
+        %tmp.29 = lgetv %dc;
+        %tmp.30 = getv function %tmp.29 :getHeight;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        lputv %height.1 %tmp.31;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 34 2 ]
+        %tmp.32 = lgetv %dc;
+        %tmp.33 = getv function %tmp.32 :getWidth;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = 2;
+        %tmp.36 = div %tmp.34 %tmp.35;
+        putv self :centerX %tmp.36;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 35 2 ]
+        %tmp.38 = lgetv %height.1;
+        %tmp.39 = 2;
+        %tmp.40 = div %tmp.38 %tmp.39;
+        putv self :centerY %tmp.40;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 36 2 ]
+        [ "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_start" "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_stop" ]
+        %mediumOffset.2 = local;
+        %tmp.41 = getm $.Toybox.Graphics;
+        %tmp.42 = getv function %tmp.41 :getFontHeight;
+        %tmp.43 = getm $.Toybox.Graphics;
+        %tmp.44 = getv %tmp.43 :FONT_MEDIUM;
+        %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
+        lputv %mediumOffset.2 %tmp.45;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 37 2 ]
+        [ "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_start" "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_stop" ]
+        %mildOffset.3 = local;
+        %tmp.46 = getm $.Toybox.Graphics;
+        %tmp.47 = getv function %tmp.46 :getFontHeight;
+        %tmp.48 = getm $.Toybox.Graphics;
+        %tmp.49 = getv %tmp.48 :FONT_NUMBER_MILD;
+        %tmp.50 = invoke %tmp.46 %tmp.47(%tmp.49);
+        lputv %mildOffset.3 %tmp.50;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 38 2 ]
+        [ "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_start" "C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_stop" ]
+        %screenShape.4 = local;
+        %tmp.51 = getm $.Toybox.System;
+        %tmp.52 = getv function %tmp.51 :getDeviceSettings;
+        %tmp.53 = invoke %tmp.51 %tmp.52();
+        %tmp.54 = getv %tmp.53 :screenShape;
+        lputv %screenShape.4 %tmp.54;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 40 2 ]
+        %tmp.56 = lgetv %height.1;
+        %tmp.58 = lgetv %mildOffset.3;
+        %tmp.59 = sub %tmp.56 %tmp.58;
+        putv self :timeOffset %tmp.59;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 41 2 ]
+        %tmp.60 = 5;
+        putv self :pomodoroOffset %tmp.60;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 42 2 ]
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_2_45_2_if_stmt:
+        %tmp.61 = getm $.Toybox.System;
+        %tmp.62 = getv %tmp.61 :SCREEN_SHAPE_RECTANGLE;
+        %tmp.64 = lgetv %screenShape.4;
+        %tmp.65 = ne %tmp.62 %tmp.64;
+        bf %tmp.65 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_2_45_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_2_45_2_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_54_45_2_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 43 3 ]
+        %tmp.66 = getv self :pomodoroOffset;
+        %tmp.68 = lgetv %mediumOffset.2;
+        %tmp.69 = add %tmp.66 %tmp.68;
+        putv self :pomodoroOffset dup %tmp.69;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 44 3 ]
+        %tmp.70 = getv self :timeOffset;
+        %tmp.71 = 5;
+        %tmp.72 = sub %tmp.70 %tmp.71;
+        putv self :timeOffset dup %tmp.72;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_54_45_2_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_2_45_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_42_2_45_2_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 47 2 ]
+        %tmp.73 = lgetv %self;
+        %tmp.74 = getv %tmp.73 :centerY;
+        %tmp.75 = getm $.Toybox.Graphics;
+        %tmp.76 = getv function %tmp.75 :getFontHeight;
+        %tmp.77 = getm $.Toybox.Graphics;
+        %tmp.78 = getv %tmp.77 :FONT_LARGE;
+        %tmp.79 = invoke %tmp.75 %tmp.76(%tmp.78);
+        %tmp.80 = 2;
+        %tmp.81 = div %tmp.79 %tmp.80;
+        %tmp.82 = sub %tmp.74 %tmp.81;
+        putv self :readyLabelOffset %tmp.82;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 48 2 ]
+        %tmp.83 = lgetv %self;
+        %tmp.84 = getv %tmp.83 :centerY;
+        %tmp.85 = getm $.Toybox.Graphics;
+        %tmp.86 = getv function %tmp.85 :getFontHeight;
+        %tmp.87 = getm $.Toybox.Graphics;
+        %tmp.88 = getv %tmp.87 :FONT_NUMBER_THAI_HOT;
+        %tmp.89 = invoke %tmp.85 %tmp.86(%tmp.88);
+        %tmp.90 = 2;
+        %tmp.91 = div %tmp.89 %tmp.90;
+        %tmp.92 = sub %tmp.84 %tmp.91;
+        putv self :minutesOffset %tmp.92;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 49 2 ]
+        %tmp.93 = lgetv %self;
+        %tmp.94 = getv %tmp.93 :timeOffset;
+        %tmp.95 = getm $.Toybox.Graphics;
+        %tmp.96 = getv function %tmp.95 :getFontHeight;
+        %tmp.97 = getm $.Toybox.Graphics;
+        %tmp.98 = getv %tmp.97 :FONT_TINY;
+        %tmp.99 = invoke %tmp.95 %tmp.96(%tmp.98);
+        %tmp.100 = sub %tmp.94 %tmp.99;
+        putv self :captionOffset %tmp.100;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_27_25_50_1_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 52; ]
+    function onShow() {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 55; ]
+    function onUpdate(dc) {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_55_25_82_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 56 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 57 2 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 58 2 ]
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_stmt:
+        %tmp.10 = getv ? :isBreakTimerStarted;
+        bf %tmp.10 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_false;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_29_65_2_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 59 3 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :setColor;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv %tmp.13 :COLOR_GREEN;
+        %tmp.15 = getm $.Toybox.Graphics;
+        %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
+        invoke %tmp.11 %tmp.12(%tmp.14, %tmp.16);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 60 3 ]
+        %tmp.17 = lgetv %dc;
+        %tmp.18 = getv function %tmp.17 :drawText;
+        %tmp.19 = lgetv %self;
+        %tmp.20 = getv %tmp.19 :centerX;
+        %tmp.21 = lgetv %self;
+        %tmp.22 = getv %tmp.21 :pomodoroOffset;
+        %tmp.23 = getm $.Toybox.Graphics;
+        %tmp.24 = getv %tmp.23 :FONT_MEDIUM;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_begin:
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :isLongBreak;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        bf %tmp.27 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_false;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_true:
+        %tmp.28 = lgetv %self;
+        %tmp.29 = getv %tmp.28 :longBreakLabel;
+        push %tmp.29;
+        goto @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_false:
+        %tmp.30 = lgetv %self;
+        %tmp.31 = getv %tmp.30 :shortBreakLabel;
+        push %tmp.31;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_end:
+        %tmp.32 = phi [%tmp.27 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_begin] [%tmp.29 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_true] [%tmp.31 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_false] [%tmp.32 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_60_64_60_103_end];
+        %tmp.33 = getm $.Toybox.Graphics;
+        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22, %tmp.24, %tmp.32, %tmp.34);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 61 3 ]
+        %tmp.35 = lgetv %self;
+        %tmp.36 = getv function %tmp.35 :drawMinutes;
+        %tmp.38 = lgetv %dc;
+        invoke %tmp.35 %tmp.36(%tmp.38);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 63 3 ]
+        %tmp.39 = lgetv %dc;
+        %tmp.40 = getv function %tmp.39 :setColor;
+        %tmp.41 = getm $.Toybox.Graphics;
+        %tmp.42 = getv %tmp.41 :COLOR_DK_GREEN;
+        %tmp.43 = getm $.Toybox.Graphics;
+        %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+        invoke %tmp.39 %tmp.40(%tmp.42, %tmp.44);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 64 3 ]
+        %tmp.45 = lgetv %self;
+        %tmp.46 = getv function %tmp.45 :drawCaption;
+        %tmp.48 = lgetv %dc;
+        invoke %tmp.45 %tmp.46(%tmp.48);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_29_65_2_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_false:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 65 9 ]
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_stmt:
+        %tmp.50 = getv ? :isPomodoroTimerStarted;
+        bf %tmp.50 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_false;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_39_70_2_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 66 3 ]
+        %tmp.51 = lgetv %dc;
+        %tmp.52 = getv function %tmp.51 :setColor;
+        %tmp.53 = getm $.Toybox.Graphics;
+        %tmp.54 = getv %tmp.53 :COLOR_YELLOW;
+        %tmp.55 = getm $.Toybox.Graphics;
+        %tmp.56 = getv %tmp.55 :COLOR_TRANSPARENT;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.56);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 67 3 ]
+        %tmp.57 = lgetv %self;
+        %tmp.58 = getv function %tmp.57 :drawMinutes;
+        %tmp.60 = lgetv %dc;
+        invoke %tmp.57 %tmp.58(%tmp.60);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 68 3 ]
+        %tmp.61 = lgetv %dc;
+        %tmp.62 = getv function %tmp.61 :setColor;
+        %tmp.63 = getm $.Toybox.Graphics;
+        %tmp.64 = getv %tmp.63 :COLOR_ORANGE;
+        %tmp.65 = getm $.Toybox.Graphics;
+        %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
+        invoke %tmp.61 %tmp.62(%tmp.64, %tmp.66);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 69 3 ]
+        %tmp.67 = lgetv %self;
+        %tmp.68 = getv function %tmp.67 :drawCaption;
+        %tmp.70 = lgetv %dc;
+        invoke %tmp.67 %tmp.68(%tmp.70);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_39_70_2_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_false:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_70_9_73_2_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 71 3 ]
+        %tmp.71 = lgetv %dc;
+        %tmp.72 = getv function %tmp.71 :setColor;
+        %tmp.73 = getm $.Toybox.Graphics;
+        %tmp.74 = getv %tmp.73 :COLOR_ORANGE;
+        %tmp.75 = getm $.Toybox.Graphics;
+        %tmp.76 = getv %tmp.75 :COLOR_TRANSPARENT;
+        invoke %tmp.71 %tmp.72(%tmp.74, %tmp.76);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 72 3 ]
+        %tmp.77 = lgetv %dc;
+        %tmp.78 = getv function %tmp.77 :drawText;
+        %tmp.79 = lgetv %self;
+        %tmp.80 = getv %tmp.79 :centerX;
+        %tmp.81 = lgetv %self;
+        %tmp.82 = getv %tmp.81 :readyLabelOffset;
+        %tmp.83 = getm $.Toybox.Graphics;
+        %tmp.84 = getv %tmp.83 :FONT_LARGE;
+        %tmp.85 = lgetv %self;
+        %tmp.86 = getv %tmp.85 :readyLabel;
+        %tmp.87 = getm $.Toybox.Graphics;
+        %tmp.88 = getv %tmp.87 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.77 %tmp.78(%tmp.80, %tmp.82, %tmp.84, %tmp.86, %tmp.88);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_70_9_73_2_stop:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_65_9_73_2_if_end:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_58_2_73_2_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 75 2 ]
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_2_78_2_if_stmt:
+        %tmp.90 = getv ? :isBreakTimerStarted;
+        %tmp.91 = not %tmp.90;
+        bf %tmp.91 @C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_2_78_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_2_78_2_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_31_78_2_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 76 3 ]
+        %tmp.92 = lgetv %dc;
+        %tmp.93 = getv function %tmp.92 :setColor;
+        %tmp.94 = getm $.Toybox.Graphics;
+        %tmp.95 = getv %tmp.94 :COLOR_LT_GRAY;
+        %tmp.96 = getm $.Toybox.Graphics;
+        %tmp.97 = getv %tmp.96 :COLOR_TRANSPARENT;
+        invoke %tmp.92 %tmp.93(%tmp.95, %tmp.97);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 77 3 ]
+        %tmp.98 = lgetv %dc;
+        %tmp.99 = getv function %tmp.98 :drawText;
+        %tmp.100 = lgetv %self;
+        %tmp.101 = getv %tmp.100 :centerX;
+        %tmp.102 = lgetv %self;
+        %tmp.103 = getv %tmp.102 :pomodoroOffset;
+        %tmp.104 = getm $.Toybox.Graphics;
+        %tmp.105 = getv %tmp.104 :FONT_MEDIUM;
+        %tmp.106 = "Pomodoro #";
+        %tmp.108 = getv ? :pomodoroNumber;
+        %tmp.109 = add %tmp.106 %tmp.108;
+        %tmp.110 = getm $.Toybox.Graphics;
+        %tmp.111 = getv %tmp.110 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.98 %tmp.99(%tmp.101, %tmp.103, %tmp.105, %tmp.109, %tmp.111);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_31_78_2_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_2_78_2_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_75_2_78_2_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 80 2 ]
+        %tmp.112 = lgetv %dc;
+        %tmp.113 = getv function %tmp.112 :setColor;
+        %tmp.114 = getm $.Toybox.Graphics;
+        %tmp.115 = getv %tmp.114 :COLOR_LT_GRAY;
+        %tmp.116 = getm $.Toybox.Graphics;
+        %tmp.117 = getv %tmp.116 :COLOR_TRANSPARENT;
+        invoke %tmp.112 %tmp.113(%tmp.115, %tmp.117);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 81 2 ]
+        %tmp.118 = lgetv %dc;
+        %tmp.119 = getv function %tmp.118 :drawText;
+        %tmp.120 = lgetv %self;
+        %tmp.121 = getv %tmp.120 :centerX;
+        %tmp.122 = lgetv %self;
+        %tmp.123 = getv %tmp.122 :timeOffset;
+        %tmp.124 = getm $.Toybox.Graphics;
+        %tmp.125 = getv %tmp.124 :FONT_NUMBER_MILD;
+        %tmp.126 = lgetv %self;
+        %tmp.127 = getv function %tmp.126 :getTime;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        %tmp.129 = getm $.Toybox.Graphics;
+        %tmp.130 = getv %tmp.129 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.118 %tmp.119(%tmp.121, %tmp.123, %tmp.125, %tmp.128, %tmp.130);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_55_25_82_1_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 84; ]
+    protected
+    function drawMinutes(dc) {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_84_35_86_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 85 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %self;
+        %tmp.4 = getv %tmp.3 :centerX;
+        %tmp.5 = lgetv %self;
+        %tmp.6 = getv %tmp.5 :minutesOffset;
+        %tmp.7 = getm $.Toybox.Graphics;
+        %tmp.8 = getv %tmp.7 :FONT_NUMBER_THAI_HOT;
+        %tmp.10 = getv ? :minutes;
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%02d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = getm $.Toybox.Graphics;
+        %tmp.15 = getv %tmp.14 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6, %tmp.8, %tmp.13, %tmp.15);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_84_35_86_1_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 88; ]
+    protected
+    function drawCaption(dc) {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_88_35_90_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 89 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %self;
+        %tmp.4 = getv %tmp.3 :centerX;
+        %tmp.5 = lgetv %self;
+        %tmp.6 = getv %tmp.5 :captionOffset;
+        %tmp.7 = getm $.Toybox.Graphics;
+        %tmp.8 = getv %tmp.7 :FONT_TINY;
+        %tmp.9 = lgetv %self;
+        %tmp.10 = getv %tmp.9 :pomodoroSubtitle;
+        %tmp.11 = getm $.Toybox.Graphics;
+        %tmp.12 = getv %tmp.11 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6, %tmp.8, %tmp.10, %tmp.12);
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_88_35_90_1_stop:
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 92; ]
+    function onHide() {
+    }
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 95; ]
+    function getTime() {
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_95_20_101_1_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 96 2 ]
+        [ "C_Users_asuth_garmodoro_source_GarmodoroView_mc_95_20_101_1_start" "C_Users_asuth_garmodoro_source_GarmodoroView_mc_95_20_101_1_stop" ]
+        %today.1 = local;
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        %tmp.2 = getv function %tmp.1 :info;
+        %tmp.3 = getm $.Toybox.Time;
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = getm $.Toybox.Time;
+        %tmp.7 = getv %tmp.6 :FORMAT_SHORT;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+[ "C:\Users\asuth\garmodoro\source\GarmodoroView.mc" 97 2 ]
+        %tmp.9 = getm $.Toybox.Lang;
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$:$2$";
+        %tmp.12 = newa 2;
+        %tmp.13 = lgetv %today.1;
+        %tmp.14 = getv %tmp.13 :hour;
+        %tmp.15 = getv function %tmp.14 :format;
+        %tmp.16 = "%02d";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = dup %tmp.12;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        %tmp.20 = lgetv %today.1;
+        %tmp.21 = getv %tmp.20 :min;
+        %tmp.22 = getv function %tmp.21 :format;
+        %tmp.23 = "%02d";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = dup %tmp.19;
+        %tmp.26 = aputv %tmp.25 1 %tmp.24;
+        %tmp.27 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.26);
+        ret %tmp.27;
+C_Users_asuth_garmodoro_source_GarmodoroView_mc_95_20_101_1_stop:
+    }
+}
+[ @file = "C:\Users\asuth\garmodoro\source\GarmodoroView.mc"; @line = 1; ]
+<init> {
+}
