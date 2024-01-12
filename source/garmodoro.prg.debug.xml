@@ -106,90 +106,95 @@
 <entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="17" parent="globals/GarmodoroApp" pc="268437745" symbol="onStop"/>
 <entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="18" parent="globals/GarmodoroApp" pc="268437747" symbol="onStop"/>
 <entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroApp.mc" id="25" lineNum="19" parent="globals/GarmodoroApp" pc="268437765" symbol="onStop"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="107" parent="globals/GarmodoroDelegate" pc="268437784" symbol="tickCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="108" parent="globals/GarmodoroDelegate" pc="268437786" symbol="tickCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="111" parent="globals/GarmodoroDelegate" pc="268437857" symbol="onBack"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="112" parent="globals/GarmodoroDelegate" pc="268437859" symbol="onBack"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="113" parent="globals/GarmodoroDelegate" pc="268437880" symbol="onBack"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="86" parent="globals/GarmodoroDelegate" pc="268437883" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="87" parent="globals/GarmodoroDelegate" pc="268437885" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="89" parent="globals/GarmodoroDelegate" pc="268437904" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="90" parent="globals/GarmodoroDelegate" pc="268437921" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="91" parent="globals/GarmodoroDelegate" pc="268437938" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="92" parent="globals/GarmodoroDelegate" pc="268437960" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="94" parent="globals/GarmodoroDelegate" pc="268437978" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="95" parent="globals/GarmodoroDelegate" pc="268437988" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="96" parent="globals/GarmodoroDelegate" pc="268438007" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="97" parent="globals/GarmodoroDelegate" pc="268438019" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="100" parent="globals/GarmodoroDelegate" pc="268438060" symbol="breakCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="116" parent="globals/GarmodoroDelegate" pc="268438077" symbol="onNextMode"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="117" parent="globals/GarmodoroDelegate" pc="268438079" symbol="onNextMode"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="65" parent="globals/GarmodoroDelegate" pc="268438082" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="66" parent="globals/GarmodoroDelegate" pc="268438084" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="68" parent="globals/GarmodoroDelegate" pc="268438103" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="69" parent="globals/GarmodoroDelegate" pc="268438120" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="70" parent="globals/GarmodoroDelegate" pc="268438137" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="71" parent="globals/GarmodoroDelegate" pc="268438159" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="72" parent="globals/GarmodoroDelegate" pc="268438177" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="73" parent="globals/GarmodoroDelegate" pc="268438195" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="74" parent="globals/GarmodoroDelegate" pc="268438205" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="76" parent="globals/GarmodoroDelegate" pc="268438264" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="77" parent="globals/GarmodoroDelegate" pc="268438305" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="78" parent="globals/GarmodoroDelegate" pc="268438315" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="79" parent="globals/GarmodoroDelegate" pc="268438333" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="80" parent="globals/GarmodoroDelegate" pc="268438351" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="83" parent="globals/GarmodoroDelegate" pc="268438360" symbol="pomodoroCallback"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="103" parent="globals/GarmodoroDelegate" pc="268438377" symbol="shouldTick"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="104" parent="globals/GarmodoroDelegate" pc="268438379" symbol="shouldTick"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="40" parent="globals/GarmodoroDelegate" pc="268438415" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="41" parent="globals/GarmodoroDelegate" pc="268438417" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="42" parent="globals/GarmodoroDelegate" pc="268438440" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="45" parent="globals/GarmodoroDelegate" pc="268438462" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="46" parent="globals/GarmodoroDelegate" pc="268438474" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="47" parent="globals/GarmodoroDelegate" pc="268438497" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="50" parent="globals/GarmodoroDelegate" pc="268438533" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="51" parent="globals/GarmodoroDelegate" pc="268438545" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="53" parent="globals/GarmodoroDelegate" pc="268438571" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="56" parent="globals/GarmodoroDelegate" pc="268438594" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="59" parent="globals/GarmodoroDelegate" pc="268438638" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="62" parent="globals/GarmodoroDelegate" pc="268438661" symbol="initialize"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="120" parent="globals/GarmodoroDelegate" pc="268438685" symbol="onNextPage"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="121" parent="globals/GarmodoroDelegate" pc="268438687" symbol="onNextPage"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="124" parent="globals/GarmodoroDelegate" pc="268438690" symbol="onKey"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="125" parent="globals/GarmodoroDelegate" pc="268438692" symbol="onKey"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="128" parent="globals/GarmodoroDelegate" pc="268438704" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="129" parent="globals/GarmodoroDelegate" pc="268438706" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="130" parent="globals/GarmodoroDelegate" pc="268438728" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="131" parent="globals/GarmodoroDelegate" pc="268438761" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="132" parent="globals/GarmodoroDelegate" pc="268438779" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="133" parent="globals/GarmodoroDelegate" pc="268438797" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="136" parent="globals/GarmodoroDelegate" pc="268438806" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="137" parent="globals/GarmodoroDelegate" pc="268438891" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="140" parent="globals/GarmodoroDelegate" pc="268438894" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="141" parent="globals/GarmodoroDelegate" pc="268438909" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="142" parent="globals/GarmodoroDelegate" pc="268438944" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="148" parent="globals/GarmodoroDelegate" pc="268439012" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="149" parent="globals/GarmodoroDelegate" pc="268439033" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="150" parent="globals/GarmodoroDelegate" pc="268439066" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="151" parent="globals/GarmodoroDelegate" pc="268439084" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="152" parent="globals/GarmodoroDelegate" pc="268439102" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="156" parent="globals/GarmodoroDelegate" pc="268439111" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="157" parent="globals/GarmodoroDelegate" pc="268439128" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="158" parent="globals/GarmodoroDelegate" pc="268439150" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="159" parent="globals/GarmodoroDelegate" pc="268439168" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="160" parent="globals/GarmodoroDelegate" pc="268439180" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="161" parent="globals/GarmodoroDelegate" pc="268439221" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="162" parent="globals/GarmodoroDelegate" pc="268439235" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="164" parent="globals/GarmodoroDelegate" pc="268439306" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="166" parent="globals/GarmodoroDelegate" pc="268439316" symbol="onSelect"/>
-<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="168" parent="globals/GarmodoroDelegate" pc="268439332" symbol="onSelect"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="13" parent="globals/Rez/Layouts" pc="268439335" symbol="MainLayout"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268439345" symbol="MainLayout"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="37" lineNum="19" parent="globals/Rez/Menus/StopMenu" pc="268439352" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="20" parent="globals/Rez/Menus/StopMenu" pc="268439371" symbol="initialize"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="21" parent="globals/Rez/Menus/StopMenu" pc="268439373" symbol="initialize"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="22" parent="globals/Rez/Menus/StopMenu" pc="268439391" symbol="initialize"/>
-<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="23" parent="globals/Rez/Menus/StopMenu" pc="268439447" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="119" parent="globals/GarmodoroDelegate" pc="268437784" symbol="tickCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="26" lineNum="120" parent="globals/GarmodoroDelegate" pc="268437786" symbol="tickCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="123" parent="globals/GarmodoroDelegate" pc="268437857" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="124" parent="globals/GarmodoroDelegate" pc="268437859" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="27" lineNum="125" parent="globals/GarmodoroDelegate" pc="268437880" symbol="onBack"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="91" parent="globals/GarmodoroDelegate" pc="268437883" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="92" parent="globals/GarmodoroDelegate" pc="268437885" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="94" parent="globals/GarmodoroDelegate" pc="268437904" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="95" parent="globals/GarmodoroDelegate" pc="268437921" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="96" parent="globals/GarmodoroDelegate" pc="268437938" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="97" parent="globals/GarmodoroDelegate" pc="268437960" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="99" parent="globals/GarmodoroDelegate" pc="268437978" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="100" parent="globals/GarmodoroDelegate" pc="268437988" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="101" parent="globals/GarmodoroDelegate" pc="268438007" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="102" parent="globals/GarmodoroDelegate" pc="268438019" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="105" parent="globals/GarmodoroDelegate" pc="268438060" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="106" parent="globals/GarmodoroDelegate" pc="268438093" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="107" parent="globals/GarmodoroDelegate" pc="268438111" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="108" parent="globals/GarmodoroDelegate" pc="268438129" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="28" lineNum="112" parent="globals/GarmodoroDelegate" pc="268438138" symbol="breakCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="128" parent="globals/GarmodoroDelegate" pc="268438155" symbol="onNextMode"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="29" lineNum="129" parent="globals/GarmodoroDelegate" pc="268438157" symbol="onNextMode"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="66" parent="globals/GarmodoroDelegate" pc="268438160" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="67" parent="globals/GarmodoroDelegate" pc="268438162" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="69" parent="globals/GarmodoroDelegate" pc="268438181" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="70" parent="globals/GarmodoroDelegate" pc="268438198" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="71" parent="globals/GarmodoroDelegate" pc="268438215" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="72" parent="globals/GarmodoroDelegate" pc="268438237" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="73" parent="globals/GarmodoroDelegate" pc="268438255" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="74" parent="globals/GarmodoroDelegate" pc="268438273" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="75" parent="globals/GarmodoroDelegate" pc="268438283" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="78" parent="globals/GarmodoroDelegate" pc="268438342" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="79" parent="globals/GarmodoroDelegate" pc="268438375" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="80" parent="globals/GarmodoroDelegate" pc="268438393" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="81" parent="globals/GarmodoroDelegate" pc="268438411" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="84" parent="globals/GarmodoroDelegate" pc="268438420" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="85" parent="globals/GarmodoroDelegate" pc="268438461" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="30" lineNum="88" parent="globals/GarmodoroDelegate" pc="268438471" symbol="pomodoroCallback"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="115" parent="globals/GarmodoroDelegate" pc="268438488" symbol="shouldTick"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="31" lineNum="116" parent="globals/GarmodoroDelegate" pc="268438490" symbol="shouldTick"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="40" parent="globals/GarmodoroDelegate" pc="268438526" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="41" parent="globals/GarmodoroDelegate" pc="268438528" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="42" parent="globals/GarmodoroDelegate" pc="268438551" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="45" parent="globals/GarmodoroDelegate" pc="268438573" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="46" parent="globals/GarmodoroDelegate" pc="268438585" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="47" parent="globals/GarmodoroDelegate" pc="268438608" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="50" parent="globals/GarmodoroDelegate" pc="268438644" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="51" parent="globals/GarmodoroDelegate" pc="268438656" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="53" parent="globals/GarmodoroDelegate" pc="268438682" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="56" parent="globals/GarmodoroDelegate" pc="268438705" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="59" parent="globals/GarmodoroDelegate" pc="268438749" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="32" lineNum="62" parent="globals/GarmodoroDelegate" pc="268438772" symbol="initialize"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="132" parent="globals/GarmodoroDelegate" pc="268438796" symbol="onNextPage"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="33" lineNum="133" parent="globals/GarmodoroDelegate" pc="268438798" symbol="onNextPage"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="136" parent="globals/GarmodoroDelegate" pc="268438801" symbol="onKey"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="34" lineNum="137" parent="globals/GarmodoroDelegate" pc="268438803" symbol="onKey"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="140" parent="globals/GarmodoroDelegate" pc="268438815" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="141" parent="globals/GarmodoroDelegate" pc="268438817" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="142" parent="globals/GarmodoroDelegate" pc="268438839" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="143" parent="globals/GarmodoroDelegate" pc="268438872" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="144" parent="globals/GarmodoroDelegate" pc="268438890" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="145" parent="globals/GarmodoroDelegate" pc="268438908" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="148" parent="globals/GarmodoroDelegate" pc="268438917" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="149" parent="globals/GarmodoroDelegate" pc="268439002" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="152" parent="globals/GarmodoroDelegate" pc="268439005" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="153" parent="globals/GarmodoroDelegate" pc="268439020" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="154" parent="globals/GarmodoroDelegate" pc="268439055" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="160" parent="globals/GarmodoroDelegate" pc="268439123" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="161" parent="globals/GarmodoroDelegate" pc="268439144" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="162" parent="globals/GarmodoroDelegate" pc="268439177" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="163" parent="globals/GarmodoroDelegate" pc="268439195" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="164" parent="globals/GarmodoroDelegate" pc="268439213" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="168" parent="globals/GarmodoroDelegate" pc="268439222" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="169" parent="globals/GarmodoroDelegate" pc="268439239" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="170" parent="globals/GarmodoroDelegate" pc="268439261" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="171" parent="globals/GarmodoroDelegate" pc="268439279" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="172" parent="globals/GarmodoroDelegate" pc="268439291" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="173" parent="globals/GarmodoroDelegate" pc="268439332" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="174" parent="globals/GarmodoroDelegate" pc="268439346" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="176" parent="globals/GarmodoroDelegate" pc="268439417" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="178" parent="globals/GarmodoroDelegate" pc="268439427" symbol="onSelect"/>
+<entry filename="C:\\Users\\asuth\\garmodoro\\source\\GarmodoroDelegate.mc" id="35" lineNum="180" parent="globals/GarmodoroDelegate" pc="268439443" symbol="onSelect"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="13" parent="globals/Rez/Layouts" pc="268439446" symbol="MainLayout"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268439456" symbol="MainLayout"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="37" lineNum="19" parent="globals/Rez/Menus/StopMenu" pc="268439463" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="20" parent="globals/Rez/Menus/StopMenu" pc="268439482" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="21" parent="globals/Rez/Menus/StopMenu" pc="268439484" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="22" parent="globals/Rez/Menus/StopMenu" pc="268439502" symbol="initialize"/>
+<entry filename="c:\\Users\\asuth\\garmodoro\\source\\gen\\006-B3703-00\\source\\Rez.mcgen" id="38" lineNum="23" parent="globals/Rez/Menus/StopMenu" pc="268439558" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -309,8 +314,8 @@
 <entry arg="true" endPc="268437575" name="elapsedTime" stackId="1" startPc="268437547"/>
 <entry arg="true" endPc="268437646" name="state" stackId="1" startPc="268437576"/>
 <entry arg="true" endPc="268437783" name="state" stackId="1" startPc="268437745"/>
-<entry arg="true" endPc="268438703" name="keyEvent" stackId="1" startPc="268438690"/>
-<entry arg="true" endPc="268439351" name="dc" stackId="1" startPc="268439335"/>
+<entry arg="true" endPc="268438814" name="keyEvent" stackId="1" startPc="268438801"/>
+<entry arg="true" endPc="268439462" name="dc" stackId="1" startPc="268439446"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NumberOfPomodorosBeforeLongBreak"/>
@@ -448,39 +453,39 @@
 <functionEntry accessMode="public" endPc="268437882" name="onBack" parent="GarmodoroDelegate" startPc="268437857">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438076" name="breakCallback" parent="GarmodoroDelegate" startPc="268437883">
+<functionEntry accessMode="public" endPc="268438154" name="breakCallback" parent="GarmodoroDelegate" startPc="268437883">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438081" name="onNextMode" parent="GarmodoroDelegate" startPc="268438077">
+<functionEntry accessMode="public" endPc="268438159" name="onNextMode" parent="GarmodoroDelegate" startPc="268438155">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438376" name="pomodoroCallback" parent="GarmodoroDelegate" startPc="268438082">
+<functionEntry accessMode="public" endPc="268438487" name="pomodoroCallback" parent="GarmodoroDelegate" startPc="268438160">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438414" name="shouldTick" parent="GarmodoroDelegate" startPc="268438377">
+<functionEntry accessMode="public" endPc="268438525" name="shouldTick" parent="GarmodoroDelegate" startPc="268438488">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438684" name="initialize" parent="GarmodoroDelegate" startPc="268438415">
+<functionEntry accessMode="public" endPc="268438795" name="initialize" parent="GarmodoroDelegate" startPc="268438526">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438689" name="onNextPage" parent="GarmodoroDelegate" startPc="268438685">
+<functionEntry accessMode="public" endPc="268438800" name="onNextPage" parent="GarmodoroDelegate" startPc="268438796">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438703" name="onKey" parent="GarmodoroDelegate" startPc="268438690">
+<functionEntry accessMode="public" endPc="268438814" name="onKey" parent="GarmodoroDelegate" startPc="268438801">
 <param id="keyEvent"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439334" name="onSelect" parent="GarmodoroDelegate" startPc="268438704">
+<functionEntry accessMode="public" endPc="268439445" name="onSelect" parent="GarmodoroDelegate" startPc="268438815">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439351" name="MainLayout" parent="Layouts" startPc="268439335">
+<functionEntry accessMode="public" endPc="268439462" name="MainLayout" parent="Layouts" startPc="268439446">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439370" name="&lt;init&gt;" parent="StopMenu" startPc="268439352">
+<functionEntry accessMode="public" endPc="268439481" name="&lt;init&gt;" parent="StopMenu" startPc="268439463">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439503" name="initialize" parent="StopMenu" startPc="268439371">
+<functionEntry accessMode="public" endPc="268439614" name="initialize" parent="StopMenu" startPc="268439482">
 <documentation/>
 </functionEntry>
 </functions>

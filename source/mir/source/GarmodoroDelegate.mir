@@ -215,144 +215,165 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_45_8_60_8_if_end:
         invoke %tmp.50 %tmp.51(%tmp.52);
 C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_40_26_63_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 65; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 66; ]
     function pomodoroCallback() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_65_32_84_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 66 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_66_32_89_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 67 8 ]
         %tmp.1 = getv self :minutes;
         %tmp.2 = 1;
         %tmp.3 = sub %tmp.1 %tmp.2;
         putv self :minutes dup %tmp.3;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 68 8 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_8_81_8_if_stmt:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 69 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_8_86_8_if_stmt:
         %tmp.5 = getv ? :minutes;
         %tmp.6 = 0;
         %tmp.7 = eq %tmp.5 %tmp.6;
-        bf %tmp.7 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_8_81_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_8_81_8_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_26_81_8_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 69 12 ]
+        bf %tmp.7 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_8_86_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_8_86_8_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_26_86_8_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 70 12 ]
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :play;
         %tmp.10 = 10;
         invoke %tmp.8 %tmp.9(%tmp.10);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 70 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 71 12 ]
         %tmp.11 = self;
         %tmp.12 = getv function %tmp.11 :ping;
         %tmp.13 = 100;
         %tmp.14 = 1500;
         invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 71 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 72 12 ]
         %tmp.16 = getv ? :tickTimer;
         %tmp.17 = getv function %tmp.16 :stop;
         invoke %tmp.16 %tmp.17();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 72 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 73 12 ]
         %tmp.19 = getv ? :timer;
         %tmp.20 = getv function %tmp.19 :stop;
         invoke %tmp.19 %tmp.20();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 73 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 74 12 ]
         %tmp.21 = false;
         putv self :isPomodoroTimerStarted %tmp.21;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 74 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 75 12 ]
         %tmp.22 = getm $.Toybox.Application;
         %tmp.23 = getv function %tmp.22 :getApp;
         %tmp.24 = invoke %tmp.22 %tmp.23();
         %tmp.25 = getv function %tmp.24 :getProperty;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_begin:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_begin:
         %tmp.26 = self;
         %tmp.27 = getv function %tmp.26 :isLongBreak;
         %tmp.28 = invoke %tmp.26 %tmp.27();
-        bf %tmp.28 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_false;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_true:
+        bf %tmp.28 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_false;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_true:
         %tmp.29 = "longBreakLength";
         push %tmp.29;
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_false:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_false:
         %tmp.30 = "shortBreakLength";
         push %tmp.30;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_end:
-        %tmp.31 = phi [%tmp.28 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_begin] [%tmp.29 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_true] [%tmp.30 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_false] [%tmp.31 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_74_47_74_83_end];
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_end:
+        %tmp.31 = phi [%tmp.28 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_begin] [%tmp.29 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_true] [%tmp.30 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_false] [%tmp.31 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_75_47_75_83_end];
         %tmp.32 = invoke %tmp.24 %tmp.25(%tmp.31);
         putv self :minutes %tmp.32;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 76 12 ]
-        %tmp.34 = getv ? :timer;
-        %tmp.35 = getv function %tmp.34 :start;
-        %tmp.36 = self;
-        %tmp.37 = getv function %tmp.36 :method;
-        %tmp.39 = const :breakCallback;
-        %tmp.40 = invoke %tmp.36 %tmp.37(%tmp.39);
-        %tmp.41 = 60;
-        %tmp.42 = 1000;
-        %tmp.43 = mul %tmp.41 %tmp.42;
-        %tmp.44 = true;
-        invoke %tmp.34 %tmp.35(%tmp.40, %tmp.43, %tmp.44);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 77 12 ]
-        %tmp.45 = true;
-        putv self :isBreakTimerStarted %tmp.45;
 [ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 78 12 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_16_78_55_begin:
+        %tmp.34 = getv ? :session;
+        %tmp.35 = null;
+        %tmp.36 = ne %tmp.34 %tmp.35;
+        bf %tmp.36 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_35_78_55_true:
+        %tmp.38 = getv ? :session;
+        %tmp.39 = as %tmp.38 { (!Null) };
+        %tmp.40 = getv function %tmp.39 :isRecording;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        push %tmp.41;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_35_78_55_end:
+        %tmp.42 = phi [%tmp.36 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_16_78_55_begin] [%tmp.41 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_35_78_55_true] [%tmp.42 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_35_78_55_end];
+        bf %tmp.42 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_58_82_12_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 79 16 ]
+        %tmp.44 = getv ? :session;
+        %tmp.45 = getv function %tmp.44 :stop;
+        invoke %tmp.44 %tmp.45();
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 80 16 ]
         %tmp.47 = getv ? :session;
-        %tmp.48 = getv function %tmp.47 :stop;
+        %tmp.48 = getv function %tmp.47 :save;
         invoke %tmp.47 %tmp.48();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 79 12 ]
-        %tmp.50 = getv ? :session;
-        %tmp.51 = getv function %tmp.50 :save;
-        invoke %tmp.50 %tmp.51();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 80 12 ]
-        %tmp.52 = null;
-        putv self :session %tmp.52;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_26_81_8_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_8_81_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_68_8_81_8_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 83 8 ]
-        %tmp.53 = getm $.Toybox.WatchUi;
-        %tmp.54 = getv function %tmp.53 :requestUpdate;
-        invoke %tmp.53 %tmp.54();
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_65_32_84_4_stop:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 81 16 ]
+        %tmp.49 = null;
+        putv self :session %tmp.49;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_58_82_12_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_78_12_82_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 84 12 ]
+        %tmp.51 = getv ? :timer;
+        %tmp.52 = getv function %tmp.51 :start;
+        %tmp.53 = self;
+        %tmp.54 = getv function %tmp.53 :method;
+        %tmp.56 = const :breakCallback;
+        %tmp.57 = invoke %tmp.53 %tmp.54(%tmp.56);
+        %tmp.58 = 60;
+        %tmp.59 = 1000;
+        %tmp.60 = mul %tmp.58 %tmp.59;
+        %tmp.61 = true;
+        invoke %tmp.51 %tmp.52(%tmp.57, %tmp.60, %tmp.61);
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 85 12 ]
+        %tmp.62 = true;
+        putv self :isBreakTimerStarted %tmp.62;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_26_86_8_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_8_86_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_69_8_86_8_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 88 8 ]
+        %tmp.63 = getm $.Toybox.WatchUi;
+        %tmp.64 = getv function %tmp.63 :requestUpdate;
+        invoke %tmp.63 %tmp.64();
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_66_32_89_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 86; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 91; ]
     function breakCallback() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_86_29_101_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 87 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_91_29_113_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 92 8 ]
         %tmp.1 = getv self :minutes;
         %tmp.2 = 1;
         %tmp.3 = sub %tmp.1 %tmp.2;
         putv self :minutes dup %tmp.3;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 89 8 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_8_98_8_if_stmt:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 94 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_8_110_8_if_stmt:
         %tmp.5 = getv ? :minutes;
         %tmp.6 = 0;
         %tmp.7 = eq %tmp.5 %tmp.6;
-        bf %tmp.7 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_8_98_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_8_98_8_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_26_98_8_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 90 12 ]
+        bf %tmp.7 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_8_110_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_8_110_8_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_26_110_8_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 95 12 ]
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :play;
         %tmp.10 = 7;
         invoke %tmp.8 %tmp.9(%tmp.10);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 91 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 96 12 ]
         %tmp.11 = self;
         %tmp.12 = getv function %tmp.11 :ping;
         %tmp.13 = 100;
         %tmp.14 = 1500;
         invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 92 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 97 12 ]
         %tmp.16 = getv ? :timer;
         %tmp.17 = getv function %tmp.16 :stop;
         invoke %tmp.16 %tmp.17();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 94 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 99 12 ]
         %tmp.18 = false;
         putv self :isBreakTimerStarted %tmp.18;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 95 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 100 12 ]
         %tmp.19 = getv self :pomodoroNumber;
         %tmp.20 = 1;
         %tmp.21 = add %tmp.19 %tmp.20;
         putv self :pomodoroNumber dup %tmp.21;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 96 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 101 12 ]
         %tmp.22 = self;
         %tmp.23 = getv function %tmp.22 :resetMinutes;
         invoke %tmp.22 %tmp.23();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 97 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 102 12 ]
         %tmp.25 = getv ? :timer;
         %tmp.26 = getv function %tmp.25 :start;
         %tmp.27 = self;
@@ -364,19 +385,51 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_26_98_8_start:
         %tmp.34 = mul %tmp.32 %tmp.33;
         %tmp.35 = true;
         invoke %tmp.25 %tmp.26(%tmp.31, %tmp.34, %tmp.35);
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_26_98_8_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_8_98_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_89_8_98_8_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 100 8 ]
-        %tmp.36 = getm $.Toybox.WatchUi;
-        %tmp.37 = getv function %tmp.36 :requestUpdate;
-        invoke %tmp.36 %tmp.37();
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_86_29_101_4_stop:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 105 12 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_16_105_55_begin:
+        %tmp.37 = getv ? :session;
+        %tmp.38 = null;
+        %tmp.39 = ne %tmp.37 %tmp.38;
+        bf %tmp.39 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_35_105_55_true:
+        %tmp.41 = getv ? :session;
+        %tmp.42 = as %tmp.41 { (!Null) };
+        %tmp.43 = getv function %tmp.42 :isRecording;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        push %tmp.44;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_35_105_55_end:
+        %tmp.45 = phi [%tmp.39 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_16_105_55_begin] [%tmp.44 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_35_105_55_true] [%tmp.45 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_35_105_55_end];
+        bf %tmp.45 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_58_109_12_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 106 16 ]
+        %tmp.47 = getv ? :session;
+        %tmp.48 = getv function %tmp.47 :stop;
+        invoke %tmp.47 %tmp.48();
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 107 16 ]
+        %tmp.50 = getv ? :session;
+        %tmp.51 = getv function %tmp.50 :save;
+        invoke %tmp.50 %tmp.51();
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 108 16 ]
+        %tmp.52 = null;
+        putv self :session %tmp.52;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_58_109_12_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_105_12_109_12_if_end:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_26_110_8_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_8_110_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_94_8_110_8_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 112 8 ]
+        %tmp.53 = getm $.Toybox.WatchUi;
+        %tmp.54 = getv function %tmp.53 :requestUpdate;
+        invoke %tmp.53 %tmp.54();
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_91_29_113_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 103; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 115; ]
     function shouldTick() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_103_26_105_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 104 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_115_26_117_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 116 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
@@ -386,12 +439,12 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_103_26_105_4_start:
         %tmp.7 = 0;
         %tmp.8 = gt %tmp.6 %tmp.7;
         ret %tmp.8;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_103_26_105_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_115_26_117_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 107; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 119; ]
     function tickCallback() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_107_28_109_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 108 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_119_28_121_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 120 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :ping;
         %tmp.3 = getm $.Toybox.Application;
@@ -407,97 +460,97 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_107_28_109_4_start:
         %tmp.13 = "tickDuration";
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         invoke %tmp.1 %tmp.2(%tmp.8, %tmp.14);
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_107_28_109_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_119_28_121_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 111; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 123; ]
     function onBack() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_111_22_114_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 112 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_123_22_126_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 124 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :popView;
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 113 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 125 8 ]
         %tmp.5 = true;
         ret %tmp.5;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_111_22_114_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_123_22_126_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 116; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 128; ]
     function onNextMode() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_116_26_118_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 117 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_128_26_130_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 129 8 ]
         %tmp.1 = true;
         ret %tmp.1;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_116_26_118_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_128_26_130_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 120; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 132; ]
     function onNextPage() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_120_26_122_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 121 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_132_26_134_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 133 8 ]
         %tmp.1 = true;
         ret %tmp.1;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_120_26_122_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_132_26_134_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 124; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 136; ]
     function onKey(keyEvent) {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_124_29_126_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 125 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_136_29_138_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 137 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :onSelect;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         ret %tmp.3;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_124_29_126_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_136_29_138_4_stop:
     }
-    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 128; ]
+    [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 140; ]
     function onSelect() {
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_128_24_169_4_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 129 8 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_stmt:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_12_129_35_begin:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_24_181_4_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 141 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_141_35_begin:
         %tmp.2 = getv ? :isBreakTimerStarted;
-        bt %tmp.2 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_true;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_35_129_35_false:
+        bt %tmp.2 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_true;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_35_141_35_false:
         %tmp.4 = getv ? :isPomodoroTimerStarted;
         push %tmp.4;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_35_129_35_end:
-        %tmp.5 = phi [%tmp.2 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_12_129_35_begin] [%tmp.4 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_35_129_35_false] [%tmp.5 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_35_129_35_end];
-        bf %tmp.5 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_59_138_8_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 130 12 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_stmt:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_16_130_55_begin:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_35_141_35_end:
+        %tmp.5 = phi [%tmp.2 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_141_35_begin] [%tmp.4 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_35_141_35_false] [%tmp.5 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_35_141_35_end];
+        bf %tmp.5 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_59_150_8_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 142 12 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_16_142_55_begin:
         %tmp.7 = getv ? :session;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_35_130_55_true:
+        bf %tmp.9 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_35_142_55_true:
         %tmp.11 = getv ? :session;
         %tmp.12 = as %tmp.11 { (!Null) };
         %tmp.13 = getv function %tmp.12 :isRecording;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         push %tmp.14;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_35_130_55_end:
-        %tmp.15 = phi [%tmp.9 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_16_130_55_begin] [%tmp.14 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_35_130_55_true] [%tmp.15 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_35_130_55_end];
-        bf %tmp.15 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_58_134_12_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 131 16 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_35_142_55_end:
+        %tmp.15 = phi [%tmp.9 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_16_142_55_begin] [%tmp.14 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_35_142_55_true] [%tmp.15 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_35_142_55_end];
+        bf %tmp.15 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_58_146_12_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 143 16 ]
         %tmp.17 = getv ? :session;
         %tmp.18 = getv function %tmp.17 :stop;
         invoke %tmp.17 %tmp.18();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 132 16 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 144 16 ]
         %tmp.20 = getv ? :session;
         %tmp.21 = getv function %tmp.20 :save;
         invoke %tmp.20 %tmp.21();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 133 16 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 145 16 ]
         %tmp.22 = null;
         putv self :session %tmp.22;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_58_134_12_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 136 12 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_58_146_12_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_142_12_146_12_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 148 12 ]
         %tmp.23 = getm $.Toybox.WatchUi;
         %tmp.24 = getv function %tmp.23 :pushView;
         %tmp.28 = getv ? :Rez;
@@ -509,28 +562,28 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_130_12_134_12_if_end:
         %tmp.35 = getm $.Toybox.WatchUi;
         %tmp.36 = getv %tmp.35 :SLIDE_UP;
         invoke %tmp.23 %tmp.24(%tmp.25, %tmp.31, %tmp.36);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 137 12 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 149 12 ]
         %tmp.37 = true;
         ret %tmp.37;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_59_138_8_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_129_8_138_8_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 140 8 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_59_150_8_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_8_150_8_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 152 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_8_166_8_if_stmt:
         %tmp.39 = getv ? :Toybox;
         %tmp.41 = const :ActivityRecording;
         %tmp.42 = canhazplz %tmp.39 %tmp.41;
-        bf %tmp.42 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_43_154_8_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 141 12 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_stmt:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_16_141_68_begin:
+        bf %tmp.42 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_8_166_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_8_166_8_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_43_166_8_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 153 12 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_16_153_68_begin:
         %tmp.44 = getv ? :session;
         %tmp.45 = null;
         %tmp.46 = eq %tmp.44 %tmp.45;
-        bt %tmp.46 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_true;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_37_141_68_false:
+        bt %tmp.46 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_true;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_37_153_68_false:
         %tmp.48 = getv ? :session;
         %tmp.49 = as %tmp.48 { (!Null) };
         %tmp.50 = getv function %tmp.49 :isRecording;
@@ -538,12 +591,12 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_37_141_68_false:
         %tmp.52 = false;
         %tmp.53 = eq %tmp.51 %tmp.52;
         push %tmp.53;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_37_141_68_end:
-        %tmp.54 = phi [%tmp.46 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_16_141_68_begin] [%tmp.53 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_37_141_68_false] [%tmp.54 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_37_141_68_end];
-        bf %tmp.54 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_false;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_71_149_12_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 142 16 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_37_153_68_end:
+        %tmp.54 = phi [%tmp.46 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_16_153_68_begin] [%tmp.53 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_37_153_68_false] [%tmp.54 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_37_153_68_end];
+        bf %tmp.54 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_false;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_71_161_12_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 154 16 ]
         %tmp.55 = getm $.Toybox.ActivityRecording;
         %tmp.56 = getv function %tmp.55 :createSession;
         %tmp.57 = newd 3;
@@ -563,69 +616,69 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_71_149_12_start:
         %tmp.76 = aputv %tmp.75 %tmp.71 %tmp.74;
         %tmp.77 = invoke %tmp.55 %tmp.56(%tmp.76);
         putv self :session %tmp.77;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 148 16 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 160 16 ]
         %tmp.79 = getv ? :session;
         %tmp.80 = getv function %tmp.79 :start;
         invoke %tmp.79 %tmp.80();
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_71_149_12_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_false:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 149 19 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_stmt:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_23_149_64_begin:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_71_161_12_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_false:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 161 19 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_stmt:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_23_161_64_begin:
         %tmp.82 = getv ? :session;
         %tmp.83 = null;
         %tmp.84 = ne %tmp.82 %tmp.83;
-        bf %tmp.84 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_44_149_64_true:
+        bf %tmp.84 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_44_161_64_true:
         %tmp.86 = getv ? :session;
         %tmp.87 = as %tmp.86 { (!Null) };
         %tmp.88 = getv function %tmp.87 :isRecording;
         %tmp.89 = invoke %tmp.87 %tmp.88();
         push %tmp.89;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_44_149_64_end:
-        %tmp.90 = phi [%tmp.84 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_23_149_64_begin] [%tmp.89 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_44_149_64_true] [%tmp.90 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_44_149_64_end];
-        bf %tmp.90 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_67_153_12_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 150 16 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_44_161_64_end:
+        %tmp.90 = phi [%tmp.84 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_23_161_64_begin] [%tmp.89 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_44_161_64_true] [%tmp.90 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_44_161_64_end];
+        bf %tmp.90 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_67_165_12_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 162 16 ]
         %tmp.92 = getv ? :session;
         %tmp.93 = getv function %tmp.92 :stop;
         invoke %tmp.92 %tmp.93();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 151 16 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 163 16 ]
         %tmp.95 = getv ? :session;
         %tmp.96 = getv function %tmp.95 :save;
         invoke %tmp.95 %tmp.96();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 152 16 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 164 16 ]
         %tmp.97 = null;
         putv self :session %tmp.97;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_67_153_12_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_149_19_153_12_if_end:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_141_12_153_12_if_end:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_43_154_8_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 156 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_67_165_12_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_19_165_12_if_end:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_153_12_165_12_if_end:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_43_166_8_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_8_166_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_152_8_166_8_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 168 8 ]
         %tmp.98 = self;
         %tmp.99 = getv function %tmp.98 :play;
         %tmp.100 = 1;
         invoke %tmp.98 %tmp.99(%tmp.100);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 157 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 169 8 ]
         %tmp.101 = self;
         %tmp.102 = getv function %tmp.101 :ping;
         %tmp.103 = 75;
         %tmp.104 = 1500;
         invoke %tmp.101 %tmp.102(%tmp.103, %tmp.104);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 158 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 170 8 ]
         %tmp.106 = getv ? :timer;
         %tmp.107 = getv function %tmp.106 :stop;
         invoke %tmp.106 %tmp.107();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 159 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 171 8 ]
         %tmp.108 = self;
         %tmp.109 = getv function %tmp.108 :resetMinutes;
         invoke %tmp.108 %tmp.109();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 160 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 172 8 ]
         %tmp.111 = getv ? :timer;
         %tmp.112 = getv function %tmp.111 :start;
         %tmp.113 = self;
@@ -637,15 +690,15 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_8_154_8_if_end:
         %tmp.120 = mul %tmp.118 %tmp.119;
         %tmp.121 = true;
         invoke %tmp.111 %tmp.112(%tmp.117, %tmp.120, %tmp.121);
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 161 8 ]
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_8_163_8_if_stmt:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 173 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_8_175_8_if_stmt:
         %tmp.122 = lgetv %self;
         %tmp.123 = getv function %tmp.122 :shouldTick;
         %tmp.124 = invoke %tmp.122 %tmp.123();
-        bf %tmp.124 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_8_163_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_8_163_8_if_true:
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_29_163_8_start:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 162 12 ]
+        bf %tmp.124 @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_8_175_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_8_175_8_if_true:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_29_175_8_start:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 174 12 ]
         %tmp.126 = getv ? :tickTimer;
         %tmp.127 = getv function %tmp.126 :start;
         %tmp.128 = self;
@@ -662,20 +715,20 @@ C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_29_163_8_start:
         %tmp.140 = mul %tmp.138 %tmp.139;
         %tmp.141 = true;
         invoke %tmp.126 %tmp.127(%tmp.132, %tmp.140, %tmp.141);
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_29_163_8_stop:
-        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_8_163_8_if_end;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_161_8_163_8_if_end:
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 164 8 ]
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_29_175_8_stop:
+        goto @C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_8_175_8_if_end;
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_173_8_175_8_if_end:
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 176 8 ]
         %tmp.142 = true;
         putv self :isPomodoroTimerStarted %tmp.142;
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 166 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 178 8 ]
         %tmp.143 = getm $.Toybox.WatchUi;
         %tmp.144 = getv function %tmp.143 :requestUpdate;
         invoke %tmp.143 %tmp.144();
-[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 168 8 ]
+[ "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc" 180 8 ]
         %tmp.145 = true;
         ret %tmp.145;
-C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_128_24_169_4_stop:
+C_Users_asuth_garmodoro_source_GarmodoroDelegate_mc_140_24_181_4_stop:
     }
 }
 [ @file = "C:\Users\asuth\garmodoro\source\GarmodoroDelegate.mc"; @line = 2; ]

@@ -62,6 +62,7 @@ class GarmodoroDelegate extends Ui.BehaviorDelegate {
         System.print("GarmodoroDelegate initialize() end");
     }
 
+
     function pomodoroCallback() {
         minutes -= 1;
 
@@ -73,11 +74,15 @@ class GarmodoroDelegate extends Ui.BehaviorDelegate {
             isPomodoroTimerStarted = false;
             minutes = App.getApp().getProperty(isLongBreak() ? "longBreakLength" : "shortBreakLength");
 
+            // Stop and save the session
+            if (session != null && session.isRecording()) {
+                session.stop();
+                session.save();
+                session = null;
+            }
+
             timer.start(method(:breakCallback), 60 * 1000, true);
             isBreakTimerStarted = true;
-            session.stop();
-            session.save();
-            session = null;
         }
 
         Ui.requestUpdate();
@@ -95,11 +100,18 @@ class GarmodoroDelegate extends Ui.BehaviorDelegate {
             pomodoroNumber += 1;
             resetMinutes();
             timer.start(method(:idleCallback), 60 * 1000, true);
+
+            // Stop and save the session
+            if (session != null && session.isRecording()) {
+                session.stop();
+                session.save();
+                session = null;
+            }
         }
 
         Ui.requestUpdate();
     }
-
+    
     function shouldTick() {
         return App.getApp().getProperty("tickStrength") > 0;
     }
