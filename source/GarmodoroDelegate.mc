@@ -38,29 +38,47 @@ function resetMinutes() {
 
 class GarmodoroDelegate extends Ui.BehaviorDelegate {
     function initialize() {
-        System.print("GarmodoroDelegate initialize() start");
-        Ui.BehaviorDelegate.initialize();
+    System.print("GarmodoroDelegate initialize() start");
+    Ui.BehaviorDelegate.initialize();
 
-        // Check if timer is null and initialize only if necessary
+    // Check if timer is null and initialize only if necessary
+    if (timer == null) {
+        System.print("timer is null, initializing...");
+        timer = new Timer.Timer();
+        
+        // Check if the timer is still null after initialization
         if (timer == null) {
-            System.print("timer is null, initializing...");
-            timer = new Timer.Timer();
-            
-            // Check if the timer is still null after initialization
-            if (timer == null) {
-                System.print("Error: Failed to initialize timer");
-            } else {
-                System.print("timer initialized successfully");
-                
-                // Start the timer
-                timer.start(method(:idleCallback), 60 * 1000, true);
-            }
+            System.print("Error: Failed to initialize timer");
         } else {
-            System.print("timer is already initialized");
+            System.print("timer initialized successfully");
+            
+            // Start the timer
+            timer.start(method(:idleCallback), 60 * 1000, true);
         }
-
-        System.print("GarmodoroDelegate initialize() end");
+    } else {
+        System.print("timer is already initialized");
     }
+
+    // Initialize tickTimer if it is null
+    if (tickTimer == null) {
+        System.print("tickTimer is null, initializing...");
+        tickTimer = new Timer.Timer(); // Adjust this based on your actual Timer class
+        
+        // Check if the tickTimer is still null after initialization
+        if (tickTimer == null) {
+            System.print("Error: Failed to initialize tickTimer");
+        } else {
+            System.print("tickTimer initialized successfully");
+            
+            // You may want to start tickTimer here if needed
+        }
+    } else {
+        System.print("tickTimer is already initialized");
+    }
+
+    System.print("GarmodoroDelegate initialize() end");
+}
+
 
 
     function pomodoroCallback() {
